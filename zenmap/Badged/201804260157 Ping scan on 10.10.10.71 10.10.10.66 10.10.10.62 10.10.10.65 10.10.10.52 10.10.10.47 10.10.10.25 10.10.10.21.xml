@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1524700674" profile_name="Ping scan" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Thu Apr 26 01:57:54 2018" args="nmap -sn 10.10.10.71 10.10.10.66 10.10.10.62 10.10.10.65 10.10.10.52 10.10.10.47 10.10.10.25 10.10.10.21"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-26 01:57 CEST
+Nmap done: 8 IP addresses (0 hosts up) scanned in 9.08 seconds
+</output><runstats><finished timestr="Thu Apr 26 01:58:03 2018" time="1524700683"></finished><hosts down="8" total="8" up="0"></hosts></runstats></nmaprun>

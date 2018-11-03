@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1522625928" profile_name="Quick traceroute" xmloutputversion="1.04" scanner="nmap" version="7.60" startstr="Mon Apr  2 01:38:48 2018" args="nmap -sn --traceroute 10.10.10.71"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-04-02 01:38 CEST
+Nmap scan report for rabbit.htb (10.10.10.71)
+Host is up (0.024s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+1   23.76 ms 10.10.14.1
+2   23.96 ms rabbit.htb (10.10.10.71)
+
+Nmap done: 1 IP address (1 host up) scanned in 0.26 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.71"></address><hostnames><hostname type="PTR" name="rabbit.htb"></hostname></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="23.76" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.96" host="rabbit.htb" ipaddr="10.10.10.71" ttl="2"></hop></trace></host><runstats><finished timestr="Mon Apr  2 01:38:48 2018" time="1522625928"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

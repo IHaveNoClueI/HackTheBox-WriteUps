@@ -1,0 +1,22 @@
+# Nmap 7.70 scan initiated Thu Apr 12 16:58:18 2018 as: nmap -A -sC -sV -T4 -oA nmap 10.10.10.67
+Nmap scan report for inception.htb (10.10.10.67)
+Host is up (0.027s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.18 ((Ubuntu))
+|_http-title: Inception
+3128/tcp open  http-proxy Squid http proxy 3.5.12
+|_http-server-header: squid/3.5.12
+|_http-title: ERROR: The requested URL could not be retrieved
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.18 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+1   28.48 ms 10.10.14.1
+2   28.53 ms inception.htb (10.10.10.67)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Thu Apr 12 16:59:09 2018 -- 1 IP address (1 host up) scanned in 51.37 seconds

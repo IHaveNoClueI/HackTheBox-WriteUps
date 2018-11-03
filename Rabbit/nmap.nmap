@@ -1,0 +1,95 @@
+# Nmap 7.60 scan initiated Mon Apr  2 00:59:09 2018 as: nmap -A -sC -sV -oA nmap 10.10.10.71
+Nmap scan report for 10.10.10.71
+Host is up (0.071s latency).
+Not shown: 975 closed ports
+PORT     STATE SERVICE       VERSION
+25/tcp   open  smtp          Microsoft Exchange smtpd
+| smtp-commands: Rabbit.htb.local Hello [10.10.15.178], SIZE, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, X-ANONYMOUSTLS, AUTH NTLM, X-EXPS GSSAPI NTLM, 8BITMIME, BINARYMIME, CHUNKING, XEXCH50, XRDST, XSHADOW, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT 
+| smtp-ntlm-info: 
+|   Target_Name: HTB
+|   NetBIOS_Domain_Name: HTB
+|   NetBIOS_Computer_Name: RABBIT
+|   DNS_Domain_Name: htb.local
+|   DNS_Computer_Name: Rabbit.htb.local
+|   DNS_Tree_Name: htb.local
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Not valid before: 2017-10-24T17:56:42
+|_Not valid after:  2022-10-24T17:56:42
+|_ssl-date: 2018-04-02T04:00:34+00:00; +5h00m03s from scanner time.
+53/tcp   open  domain        Microsoft DNS 6.1.7601
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+80/tcp   open  http          Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: 403 - Forbidden: Access is denied.
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2018-04-02 03:59:36Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+443/tcp  open  ssl/http      Microsoft IIS httpd 7.5
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: IIS7
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Not valid before: 2017-10-24T17:56:42
+|_Not valid after:  2022-10-24T17:56:42
+|_ssl-date: 2018-04-02T04:00:33+00:00; +5h00m04s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_RC4_128_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+445/tcp  open  microsoft-ds?
+464/tcp  open  tcpwrapped
+587/tcp  open  smtp          Microsoft Exchange smtpd
+| smtp-commands: Rabbit.htb.local Hello [10.10.15.178], SIZE 10485760, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, AUTH GSSAPI NTLM, 8BITMIME, BINARYMIME, CHUNKING, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT 
+| smtp-ntlm-info: 
+|   Target_Name: HTB
+|   NetBIOS_Domain_Name: HTB
+|   NetBIOS_Computer_Name: RABBIT
+|   DNS_Domain_Name: htb.local
+|   DNS_Computer_Name: Rabbit.htb.local
+|   DNS_Tree_Name: htb.local
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Not valid before: 2017-10-24T17:56:42
+|_Not valid after:  2022-10-24T17:56:42
+|_ssl-date: 2018-04-02T04:00:35+00:00; +5h00m04s from scanner time.
+593/tcp  open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+636/tcp  open  tcpwrapped
+808/tcp  open  ccproxy-http?
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp open  tcpwrapped
+3306/tcp open  mysql         MySQL 5.7.19
+|_mysql-info: ERROR: Script execution failed (use -d to debug)
+3389/tcp open  ms-wbt-server Microsoft Terminal Service
+| ssl-cert: Subject: commonName=Rabbit.htb.local
+| Not valid before: 2018-03-24T22:37:20
+|_Not valid after:  2018-09-23T22:37:20
+|_ssl-date: 2018-04-02T04:00:35+00:00; +5h00m04s from scanner time.
+6001/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+6002/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+6003/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+6004/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+6005/tcp open  msrpc         Microsoft Windows RPC
+6006/tcp open  msrpc         Microsoft Windows RPC
+6007/tcp open  msrpc         Microsoft Windows RPC
+8080/tcp open  http          Apache httpd 2.4.27 ((Win64) PHP/5.6.31)
+| http-methods: 
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.27 (Win64) PHP/5.6.31
+|_http-title: Example
+Service Info: Hosts: Rabbit.htb.local, RABBIT; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 5h00m03s, deviation: 0s, median: 5h00m03s
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  2 01:02:30 2018 -- 1 IP address (1 host up) scanned in 200.70 seconds

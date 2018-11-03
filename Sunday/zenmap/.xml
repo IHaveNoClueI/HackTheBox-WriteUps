@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1524987990" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Sun Apr 29 09:46:30 2018" args="nmap -sC -sS -sU -sV -p 179,111,22022,35890,43666 -T4 -A -v -Pn 10.10.10.76"><scaninfo services="111,179,22022,35890,43666" protocol="tcp" numservices="5" type="syn"></scaninfo><scaninfo services="111,179,22022,35890,43666" protocol="udp" numservices="5" type="udp"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-29 09:46 CEST
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 09:46
+Completed NSE at 09:46, 0.00s elapsed
+Initiating NSE at 09:46
+Completed NSE at 09:46, 0.00s elapsed
+Initiating Parallel DNS resolution of 1 host. at 09:46
+Completed Parallel DNS resolution of 1 host. at 09:46, 0.09s elapsed
+Initiating SYN Stealth Scan at 09:46
+Scanning 10.10.10.76 [5 ports]
+Discovered open port 111/tcp on 10.10.10.76
+Discovered open port 35890/tcp on 10.10.10.76
+Discovered open port 43666/tcp on 10.10.10.76
+Discovered open port 22022/tcp on 10.10.10.76
+Completed SYN Stealth Scan at 09:46, 0.10s elapsed (5 total ports)
+Initiating UDP Scan at 09:46
+Scanning 10.10.10.76 [5 ports]
+Discovered open port 111/udp on 10.10.10.76
+Completed UDP Scan at 09:46, 0.06s elapsed (5 total ports)
+Initiating Service scan at 09:46
+Scanning 5 services on 10.10.10.76
+Completed Service scan at 09:48, 97.56s elapsed (5 services on 1 host)
+Initiating OS detection (try #1) against 10.10.10.76
+Retrying OS detection (try #2) against 10.10.10.76
+Retrying OS detection (try #3) against 10.10.10.76
+Retrying OS detection (try #4) against 10.10.10.76
+Retrying OS detection (try #5) against 10.10.10.76
+Initiating Traceroute at 09:48
+Completed Traceroute at 09:48, 0.03s elapsed
+Initiating Parallel DNS resolution of 2 hosts. at 09:48
+Completed Parallel DNS resolution of 2 hosts. at 09:48, 0.10s elapsed
+NSE: Script scanning 10.10.10.76.
+Initiating NSE at 09:48
+Completed NSE at 09:48, 8.31s elapsed
+Initiating NSE at 09:48
+Completed NSE at 09:48, 3.33s elapsed
+Nmap scan report for 10.10.10.76
+Host is up (0.025s latency).
+
+PORT      STATE  SERVICE    VERSION
+111/tcp   open   tcpwrapped
+179/tcp   closed bgp
+22022/tcp open   tcpwrapped
+35890/tcp open   rpcbind
+43666/tcp open   unknown
+111/udp   open   rpcbind    2-4 (RPC #100000)
+179/udp   closed bgp
+22022/udp closed unknown
+35890/udp closed unknown
+43666/udp closed unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/29%OT=35890%CT=179%CU=179%PV=Y%DS=2%DC=T%G=Y%TM=5AE5
+OS:78D2%P=x86_64-pc-linux-gnu)SEQ(SP=96%GCD=1%ISR=A5%TI=I%CI=I%TS=7)SEQ(SP=
+OS:99%GCD=1%ISR=A4%TI=I%CI=I%II=I%SS=S%TS=7)SEQ(TI=I%CI=I%TS=7)SEQ(SP=BA%GC
+OS:D=1%ISR=B8%TI=RD%CI=I%II=I%TS=9)SEQ(CI=I)OPS(O1=NNT11M54DNW0NNS%O2=NNT11
+OS:M54DNW0NNS%O3=NNT11M54DNW0%O4=NNT11M54DNW0NNS%O5=NNT11M54DNW0NNS%O6=NNT1
+OS:1M54DNNS)WIN(W1=C265%W2=C265%W3=C1CC%W4=C068%W5=C068%W6=C0B7)ECN(R=Y%DF=
+OS:Y%T=3C%W=C421%O=M54DNW0NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=3C%S=O%A=S+%F=AS%RD=0%Q
+OS:=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD
+OS:=0%Q=)T7(R=N)U1(R=Y%DF=Y%T=FF%IPL=70%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RU
+OS:D=G)IE(R=Y%DFI=Y%T=FF%CD=S)
+
+Network Distance: 2 hops
+
+TRACEROUTE (using port 179/tcp)
+HOP RTT      ADDRESS
+1   23.90 ms 10.10.14.1
+2   24.00 ms 10.10.10.76
+
+NSE: Script Post-scanning.
+Initiating NSE at 09:48
+Completed NSE at 09:48, 0.00s elapsed
+Initiating NSE at 09:48
+Completed NSE at 09:48, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 124.86 seconds
+           Raw packets sent: 193 (15.544KB) | Rcvd: 139 (8.898KB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.76"></address><hostnames></hostnames><ports><port protocol="tcp" portid="111"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="179"><state reason="reset" state="closed" reason_ttl="63"></state><service method="table" conf="3" name="bgp"></service></port><port protocol="tcp" portid="22022"><state reason="syn-ack" state="open" reason_ttl="59"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="35890"><state reason="syn-ack" state="open" reason_ttl="59"></state><service method="probed" conf="10" name="rpcbind"></service></port><port protocol="tcp" portid="43666"><state reason="syn-ack" state="open" reason_ttl="63"></state><service></service></port><port protocol="udp" portid="111"><state reason="udp-response" state="open" reason_ttl="254"></state><service version="2-4" extrainfo="RPC #100000" method="probed" conf="10" name="rpcbind"></service></port><port protocol="udp" portid="179"><state reason="port-unreach" state="closed" reason_ttl="254"></state><service method="table" conf="3" name="bgp"></service></port><port protocol="udp" portid="22022"><state reason="port-unreach" state="closed" reason_ttl="254"></state><service></service></port><port protocol="udp" portid="35890"><state reason="port-unreach" state="closed" reason_ttl="254"></state><service></service></port><port protocol="udp" portid="43666"><state reason="port-unreach" state="closed" reason_ttl="254"></state><service></service></port></ports><os><portused state="open" portid="35890" proto="tcp"></portused><portused state="closed" portid="179" proto="tcp"></portused><portused state="closed" portid="179" proto="udp"></portused><osmatch line="99483" name="Sun OpenSolaris 2008.11" accuracy="94"><osclass type="general purpose" osfamily="OpenSolaris" vendor="Sun" osgen="" accuracy="94"></osclass></osmatch><osmatch line="99829" name="Sun Solaris 10" accuracy="94"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="10" accuracy="94"></osclass></osmatch><osmatch line="100744" name="Sun Solaris 9 or 10, or OpenSolaris 2009.06 snv_111b" accuracy="94"><osclass type="general purpose" osfamily="OpenSolaris" vendor="Sun" osgen="" accuracy="94"></osclass></osmatch><osmatch line="100715" name="Sun Solaris 9 or 10 (SPARC)" accuracy="92"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="10" accuracy="92"></osclass></osmatch><osmatch line="99393" name="Sun Storage 7210 NAS device" accuracy="92"><osclass type="storage-misc" osfamily="embedded" vendor="Sun" osgen="" accuracy="92"></osclass></osmatch><osmatch line="100667" name="Sun Solaris 9 or 10" accuracy="92"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="9" accuracy="92"></osclass></osmatch><osmatch line="91701" name="Oracle Solaris 11" accuracy="91"><osclass type="general purpose" osfamily="Solaris" vendor="Oracle" osgen="11" accuracy="91"></osclass></osmatch><osmatch line="100281" name="Sun Solaris 8" accuracy="91"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="8" accuracy="91"></osclass></osmatch><osmatch line="100594" name="Sun Solaris 9" accuracy="90"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="9" accuracy="90"></osclass></osmatch><osmatch line="100374" name="Sun Solaris 8 (SPARC)" accuracy="89"><osclass type="general purpose" osfamily="Solaris" vendor="Sun" osgen="8" accuracy="89"></osclass></osmatch></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="179" proto="tcp"><hop rtt="23.90" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="24.00" host="" ipaddr="10.10.10.76" ttl="2"></hop></trace></host><runstats><finished timestr="Sun Apr 29 09:48:34 2018" time="1524988114"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

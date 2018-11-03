@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1523998038" profile_name="Quick scan" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Tue Apr 17 22:47:18 2018" args="nmap -T4 -F 10.10.10.0/24"><scaninfo services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157" protocol="tcp" numservices="100" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-17 22:47 CEST
+Nmap scan report for 10.10.10.2
+Host is up (0.021s latency).
+All 100 scanned ports on 10.10.10.2 are filtered
+
+Nmap scan report for 10.10.10.3
+Host is up (0.022s latency).
+Not shown: 96 filtered ports
+PORT    STATE SERVICE
+21/tcp  open  ftp
+22/tcp  open  ssh
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+Nmap scan report for 10.10.10.4
+Host is up (0.022s latency).
+Not shown: 97 filtered ports
+PORT     STATE  SERVICE
+139/tcp  open   netbios-ssn
+445/tcp  open   microsoft-ds
+3389/tcp closed ms-wbt-server
+
+Nmap scan report for 10.10.10.5
+Host is up (0.022s latency).
+Not shown: 98 filtered ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+80/tcp open  http
+
+Nmap scan report for 10.10.10.7
+Host is up (0.023s latency).
+Not shown: 89 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+25/tcp    open  smtp
+80/tcp    open  http
+110/tcp   open  pop3
+111/tcp   open  rpcbind
+143/tcp   open  imap
+443/tcp   open  https
+993/tcp   open  imaps
+995/tcp   open  pop3s
+3306/tcp  open  mysql
+10000/tcp open  snet-sensor-mgmt
+
+Nmap scan report for 10.10.10.8
+Host is up (0.022s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.9
+Host is up (0.023s latency).
+Not shown: 97 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+49154/tcp open  unknown
+
+Nmap scan report for 10.10.10.11
+Host is up (0.021s latency).
+Not shown: 98 filtered ports
+PORT      STATE SERVICE
+135/tcp   open  msrpc
+49154/tcp open  unknown
+
+Nmap scan report for 10.10.10.13
+Host is up (0.022s latency).
+Not shown: 97 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+
+Nmap scan report for 10.10.10.14
+Host is up (0.022s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.16
+Host is up (0.022s latency).
+Not shown: 98 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.10.18
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.10.20
+Host is up (0.024s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for 10.10.10.21
+Host is up (0.023s latency).
+Not shown: 98 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+3128/tcp open  squid-http
+
+Nmap scan report for 10.10.10.22
+Host is up (0.022s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.24
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for 10.10.10.43
+Host is up (0.022s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 10.10.10.56
+Host is up (0.024s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for minion.htb (10.10.10.57)
+Host is up (0.021s latency).
+All 100 scanned ports on minion.htb (10.10.10.57) are filtered
+
+Nmap scan report for tally.htb (10.10.10.59)
+Host is up (0.045s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+80/tcp   open  http
+81/tcp   open  hosts2-ns
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1433/tcp open  ms-sql-s
+
+Nmap scan report for 10.10.10.61
+Host is up (0.025s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+8080/tcp open  http-proxy
+
+Nmap scan report for fulcrum.htb (10.10.10.62)
+Host is up (0.024s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+9999/tcp open  abyss
+
+Nmap scan report for jeeves.htb (10.10.10.63)
+Host is up (0.022s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+445/tcp open  microsoft-ds
+
+Nmap scan report for stratosphere.htb (10.10.10.64)
+Host is up (0.021s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+8080/tcp open  http-proxy
+
+Nmap scan report for ariekei.htb (10.10.10.65)
+Host is up (0.11s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+443/tcp open  https
+
+Nmap scan report for nightmare.htb (10.10.10.66)
+Host is up (0.021s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for inception.htb (10.10.10.67)
+Host is up (0.022s latency).
+Not shown: 98 filtered ports
+PORT     STATE SERVICE
+80/tcp   open  http
+3128/tcp open  squid-http
+
+Nmap scan report for bashed.htb (10.10.10.68)
+Host is up (0.024s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for fluxcapacitor.htb (10.10.10.69)
+Host is up (0.024s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for canape.htb (10.10.10.70)
+Host is up (0.022s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for rabbit.htb (10.10.10.71)
+Host is up (0.17s latency).
+Not shown: 88 closed ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+389/tcp  open  ldap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+587/tcp  open  submission
+3306/tcp open  mysql
+6001/tcp open  X11:1
+8080/tcp open  http-proxy
+
+Nmap scan report for falafel.htb (10.10.10.73)
+Host is up (0.025s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for chatterbox.htb (10.10.10.74)
+Host is up (0.023s latency).
+All 100 scanned ports on chatterbox.htb (10.10.10.74) are filtered
+
+Nmap scan report for nibbles.htb (10.10.10.75)
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for aragog.htb (10.10.10.78)
+Host is up (0.024s latency).
+Not shown: 97 closed ports
+PORT   STATE SERVICE
+21/tcp open  ftp
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for valentine.htb (10.10.10.79)
+Host is up (0.023s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for crimestoppers.htb (10.10.10.80)
+Host is up (0.023s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for bart.htb (10.10.10.81)
+Host is up (0.022s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap scan report for silo.htb (10.10.10.82)
+Host is up (0.025s latency).
+Not shown: 92 closed ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+
+Nmap scan report for poison.htb (10.10.10.84)
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap scan report for celestial.htb (10.10.10.85)
+Host is up (0.023s latency).
+Not shown: 99 closed ports
+PORT     STATE SERVICE
+3000/tcp open  ppp
+
+Nmap done: 256 IP addresses (41 hosts up) scanned in 13.26 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.2"></address><hostnames></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.3"></address><hostnames></hostnames><ports><extraports count="96" state="filtered"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="microsoft-ds"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.4"></address><hostnames></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="3389"><state reason="reset" state="closed" reason_ttl="127"></state><service method="table" conf="3" name="ms-wbt-server"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.5"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.7"></address><hostnames></hostnames><ports><extraports count="89" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="25"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="smtp"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="110"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="pop3"></service></port><port protocol="tcp" portid="111"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="rpcbind"></service></port><port protocol="tcp" portid="143"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="imap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="993"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="imaps"></service></port><port protocol="tcp" portid="995"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="pop3s"></service></port><port protocol="tcp" portid="3306"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="10000"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="snet-sensor-mgmt"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.8"></address><hostnames></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.9"></address><hostnames></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.11"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.13"></address><hostnames></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="domain"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.14"></address><hostnames></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.16"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.18"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.20"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.21"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="3128"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="squid-http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.22"></address><hostnames></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="https"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.24"></address><hostnames></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.43"></address><hostnames></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="https"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.56"></address><hostnames></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.57"></address><hostnames><hostname type="PTR" name="minion.htb"></hostname></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.59"></address><hostnames><hostname type="PTR" name="tally.htb"></hostname></hostnames><ports><extraports count="93" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="81"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="hosts2-ns"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="1433"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ms-sql-s"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.61"></address><hostnames></hostnames><ports><extraports count="96" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="62"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="62"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.62"></address><hostnames><hostname type="PTR" name="fulcrum.htb"></hostname></hostnames><ports><extraports count="96" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="kerberos-sec"></service></port><port protocol="tcp" portid="9999"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="abyss"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.63"></address><hostnames><hostname type="PTR" name="jeeves.htb"></hostname></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.64"></address><hostnames><hostname type="PTR" name="stratosphere.htb"></hostname></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.65"></address><hostnames><hostname type="PTR" name="ariekei.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="62"></state><service method="table" conf="3" name="https"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.66"></address><hostnames><hostname type="PTR" name="nightmare.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.67"></address><hostnames><hostname type="PTR" name="inception.htb"></hostname></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="62"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="3128"><state reason="syn-ack" state="open" reason_ttl="62"></state><service method="table" conf="3" name="squid-http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.68"></address><hostnames><hostname type="PTR" name="bashed.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.69"></address><hostnames><hostname type="PTR" name="fluxcapacitor.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.70"></address><hostnames><hostname type="PTR" name="canape.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.71"></address><hostnames><hostname type="PTR" name="rabbit.htb"></hostname></hostnames><ports><extraports count="88" state="closed"></extraports><port protocol="tcp" portid="25"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="smtp"></service></port><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="domain"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ldap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="587"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="submission"></service></port><port protocol="tcp" portid="3306"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="6001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="X11:1"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.73"></address><hostnames><hostname type="PTR" name="falafel.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.74"></address><hostnames><hostname type="PTR" name="chatterbox.htb"></hostname></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.75"></address><hostnames><hostname type="PTR" name="nibbles.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.78"></address><hostnames><hostname type="PTR" name="aragog.htb"></hostname></hostnames><ports><extraports count="97" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.79"></address><hostnames><hostname type="PTR" name="valentine.htb"></hostname></hostnames><ports><extraports count="97" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="https"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.80"></address><hostnames><hostname type="PTR" name="crimestoppers.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.81"></address><hostnames><hostname type="PTR" name="bart.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.82"></address><hostnames><hostname type="PTR" name="silo.htb"></hostname></hostnames><ports><extraports count="92" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="49152"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49153"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49155"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.84"></address><hostnames><hostname type="PTR" name="poison.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ssh"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.85"></address><hostnames><hostname type="PTR" name="celestial.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="3000"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="ppp"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Tue Apr 17 22:47:31 2018" time="1523998051"></finished><hosts down="215" total="256" up="41"></hosts></runstats></nmaprun>

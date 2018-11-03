@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Wed Mar 28 02:57:27 2018 as: nmap -A -sC -sV -oA nmap --system-dns --traceroute 10.10.10.78
+Host: 10.10.10.78 (aragog.htb)	Status: Up
+Host: 10.10.10.78 (aragog.htb)	Ports: 21/open/tcp//ftp//vsftpd 3.0.3/, 22/open/tcp//ssh//OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/	Ignored State: closed (997)	Seq Index: 259	IP ID Seq: All zeros
+# Nmap done at Wed Mar 28 02:57:49 2018 -- 1 IP address (1 host up) scanned in 22.18 seconds

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1524690912" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Wed Apr 25 23:15:12 2018" args='nmap -sn "file:///home/l337/Documents/HTB/Badged IPS"'><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-25 23:15 CEST
+Unable to split netmask from target expression: "file:///home/l337/Documents/HTB/Badged IPS"
+WARNING: No targets were specified, so 0 hosts scanned.
+Nmap done: 0 IP addresses (0 hosts up) scanned in 0.00 seconds
+</output><runstats><finished timestr="Wed Apr 25 23:15:12 2018" time="1524690912"></finished><hosts down="0" total="0" up="0"></hosts></runstats></nmaprun>

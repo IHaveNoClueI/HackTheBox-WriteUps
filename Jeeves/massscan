@@ -1,0 +1,4 @@
+Discovered open port 445/tcp on 10.10.10.63                                    
+Discovered open port 80/tcp on 10.10.10.63                                     
+Discovered open port 135/tcp on 10.10.10.63                                    
+Discovered open port 50000/tcp on 10.10.10.63                                  

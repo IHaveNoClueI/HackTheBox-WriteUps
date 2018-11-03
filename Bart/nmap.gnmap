@@ -1,0 +1,4 @@
+# Nmap 7.60 scan initiated Wed Mar 28 02:54:58 2018 as: nmap -A -sC -sV -oA nmap --system-dns --traceroute 10.10.10.81
+Host: 10.10.10.81 (bart.htb)	Status: Up
+Host: 10.10.10.81 (bart.htb)	Ports: 80/open/tcp//http//Microsoft IIS httpd 10.0/	Ignored State: filtered (999)	Seq Index: 266	IP ID Seq: Busy server or unknown class
+# Nmap done at Wed Mar 28 02:55:29 2018 -- 1 IP address (1 host up) scanned in 31.04 seconds

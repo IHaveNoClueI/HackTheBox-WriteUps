@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1522624962" profile_name="Quick scan" xmloutputversion="1.04" scanner="nmap" version="7.60" startstr="Mon Apr  2 01:22:42 2018" args="nmap -T4 -F 10.10.10.71"><scaninfo services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157" protocol="tcp" numservices="100" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">
+Starting Nmap 7.60 ( https://nmap.org ) at 2018-04-02 01:22 CEST
+Nmap scan report for rabbit.htb (10.10.10.71)
+Host is up (0.026s latency).
+Not shown: 87 closed ports
+PORT     STATE SERVICE
+25/tcp   open  smtp
+53/tcp   open  domain
+80/tcp   open  http
+88/tcp   open  kerberos-sec
+135/tcp  open  msrpc
+389/tcp  open  ldap
+443/tcp  open  https
+445/tcp  open  microsoft-ds
+587/tcp  open  submission
+3306/tcp open  mysql
+3389/tcp open  ms-wbt-server
+6001/tcp open  X11:1
+8080/tcp open  http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.42 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.71"></address><hostnames><hostname type="PTR" name="rabbit.htb"></hostname></hostnames><ports><extraports count="87" state="closed"></extraports><port protocol="tcp" portid="25"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="smtp"></service></port><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="domain"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="msrpc"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ldap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="https"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="587"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="submission"></service></port><port protocol="tcp" portid="3306"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="3389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ms-wbt-server"></service></port><port protocol="tcp" portid="6001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="X11:1"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Mon Apr  2 01:22:42 2018" time="1522624962"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

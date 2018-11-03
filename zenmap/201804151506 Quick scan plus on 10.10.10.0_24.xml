@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1523797580" profile_name="Quick scan plus" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Sun Apr 15 15:06:20 2018" args="nmap -sV -T4 -O -F --version-light 10.10.10.0/24"><scaninfo services="7,9,13,21-23,25-26,37,53,79-81,88,106,110-111,113,119,135,139,143-144,179,199,389,427,443-445,465,513-515,543-544,548,554,587,631,646,873,990,993,995,1025-1029,1110,1433,1720,1723,1755,1900,2000-2001,2049,2121,2717,3000,3128,3306,3389,3986,4899,5000,5009,5051,5060,5101,5190,5357,5432,5631,5666,5800,5900,6000-6001,6646,7070,8000,8008-8009,8080-8081,8443,8888,9100,9999-10000,32768,49152-49157" protocol="tcp" numservices="100" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-15 15:06 CEST
+Nmap scan report for 10.10.10.2
+Host is up (0.022s latency).
+All 100 scanned ports on 10.10.10.2 are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for minion.htb (10.10.10.57)
+Host is up (0.024s latency).
+All 100 scanned ports on minion.htb (10.10.10.57) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for tally.htb (10.10.10.59)
+Host is up (0.041s latency).
+Not shown: 93 closed ports
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          Microsoft ftpd
+80/tcp   open  http         Microsoft IIS httpd 10.0
+81/tcp   open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1433/tcp open  ms-sql-s     Microsoft SQL Server 2016 13.00.1601
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=21%CT=7%CU=31692%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=107%TI=I%CI=I%II=I%SS=S%TS=
+OS:A)SEQ(SP=102%GCD=1%ISR=107%TI=RD%CI=I%II=I%TS=A)OPS(O1=M54DNW8ST11%O2=M5
+OS:4DNW8ST11%O3=M54DNW8NNT11%O4=M54DNW8ST11%O5=M54DNW8ST11%O6=M54DST11)WIN(
+OS:W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000
+OS:%O=M54DNW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y
+OS:%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%R
+OS:D=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(
+OS:R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0
+OS:%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for sense.htb (10.10.10.60)
+Host is up (0.023s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     lighttpd 1.4.35
+443/tcp open  ssl/http lighttpd 1.4.35
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: specialized
+Running (JUST GUESSING): Comau embedded (92%)
+Aggressive OS guesses: Comau C4G robot control unit (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for fulcrum.htb (10.10.10.62)
+Host is up (0.024s latency).
+Not shown: 96 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp   open  http    nginx 1.10.3 (Ubuntu)
+88/tcp   open  http    nginx 1.10.3 (Ubuntu)
+9999/tcp open  http    nginx 1.10.3 (Ubuntu)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=31063%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10C%TI=Z%CI=I%II=I%TS=8)SEQ
+OS:(SP=107%GCD=1%ISR=10B%TI=Z%II=I%TS=8)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O
+OS:3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=
+OS:7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSN
+OS:W7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%D
+OS:F=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O
+OS:=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W
+OS:=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%R
+OS:IPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for jeeves.htb (10.10.10.63)
+Host is up (0.026s latency).
+Not shown: 97 filtered ports
+PORT    STATE SERVICE      VERSION
+80/tcp  open  http         Microsoft IIS httpd 10.0
+135/tcp open  msrpc        Microsoft Windows RPC
+445/tcp open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Microsoft Windows Server 2008 R2 (91%), Microsoft Windows 10 1511 - 1607 (87%), Microsoft Windows 8.1 Update 1 (86%), Microsoft Windows Phone 7.5 or 8.0 (86%), FreeBSD 6.2-RELEASE (86%), Microsoft Windows 7 or Windows Server 2008 R2 (85%), Microsoft Windows Server 2008 R2 or Windows 8.1 (85%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (85%), Microsoft Windows Server 2016 (85%), Microsoft Windows 7 (85%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: Host: JEEVES; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for stratosphere.htb (10.10.10.64)
+Host is up (0.024s latency).
+Not shown: 97 filtered ports
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 7.4p1 Debian 10+deb9u2 (protocol 2.0)
+80/tcp   open  http?
+8080/tcp open  http-proxy?
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.70%I=2%D=4/15%Time=5AD34E5E%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,786,"HTTP/1\.1\x20200\x20\r\nAccept-Ranges:\x20bytes\r\nETag:\x2
+SF:0W/\"1708-1519762495000\"\r\nLast-Modified:\x20Tue,\x2027\x20Feb\x20201
+SF:8\x2020:14:55\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x
+SF:201708\r\nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20GMT\r\nConn
+SF:ection:\x20close\r\n\r\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n&lt;head&gt;\n\x20\x20\x2
+SF:0\x20&lt;meta\x20charset=\"utf-8\"/&gt;\n\x20\x20\x20\x20&lt;title&gt;Stratosphere&lt;
+SF:/title&gt;\n\x20\x20\x20\x20&lt;link\x20rel=\"stylesheet\"\x20type=\"text/css
+SF:\"\x20href=\"main\.css\"&gt;\n&lt;/head&gt;\n\n&lt;body&gt;\n&lt;div\x20id=\"background\"
+SF:&gt;&lt;/div&gt;\n&lt;header\x20id=\"main-header\"\x20class=\"hidden\"&gt;\n\x20\x20&lt;d
+SF:iv\x20class=\"container\"&gt;\n\x20\x20\x20\x20&lt;div\x20class=\"content-wra
+SF:p\"&gt;\n\x20\x20\x20\x20\x20\x20&lt;p&gt;&lt;i\x20class=\"fa\x20fa-diamond\"&gt;&lt;/i&gt;&lt;
+SF:/p&gt;\n\x20\x20\x20\x20\x20\x20&lt;nav&gt;\n\x20\x20\x20\x20\x20\x20\x20\x20&lt;a\
+SF:x20class=\"btn\"\x20href=\"GettingStarted\.html\"&gt;Get\x20started&lt;/a&gt;\n\
+SF:x20\x20\x20\x20\x20\x20&lt;/nav&gt;\n\x20\x20\x20\x20&lt;/div&gt;\n\x20\x20&lt;/div&gt;\n
+SF:&lt;/header&gt;\n\n&lt;section\x20id=\"greeting\"&gt;\n\x20\x20&lt;div\x20class=\"cont
+SF:ainer\"&gt;\n\x20\x20\x20\x20&lt;div\x20class=\"content-wrap\"&gt;\n\x20\x20\x20
+SF:\x20\x20\x20&lt;h1&gt;Stratosphere&lt;br&gt;We\x20protect\x20your\x20credit\.&lt;/h1&gt;\
+SF:n\x20\x20\x20\x20\x20\x20&lt;a\x20class=\"btn\"\x20href=\"GettingStarted\.
+SF:html\"&gt;Get\x20started\x20now&lt;/a&gt;\n\x20\x20\x20\x20\x20\x20&lt;p&gt;&lt;i\x20clas
+SF:s=\"ar")%r(HTTPOptions,8A,"HTTP/1\.1\x20200\x20\r\nAllow:\x20GET,\x20HE
+SF:AD,\x20POST,\x20PUT,\x20DELETE,\x20OPTIONS\r\nContent-Length:\x200\r\nD
+SF:ate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20GMT\r\nConnection:\x20
+SF:close\r\n\r\n")%r(RTSPRequest,6A,"HTTP/1\.1\x20400\x20\r\nTransfer-Enco
+SF:ding:\x20chunked\r\nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20G
+SF:MT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n")%r(X11Probe,6A,"HTTP/1\.1\
+SF:x20400\x20\r\nTransfer-Encoding:\x20chunked\r\nDate:\x20Sun,\x2015\x20A
+SF:pr\x202018\x2013:06:44\x20GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n"
+SF:)%r(FourOhFourRequest,4F6,"HTTP/1\.1\x20404\x20\r\nContent-Type:\x20tex
+SF:t/html;charset=utf-8\r\nContent-Language:\x20en\r\nContent-Length:\x201
+SF:114\r\nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20GMT\r\nConnect
+SF:ion:\x20close\r\n\r\n&lt;!doctype\x20html&gt;&lt;html\x20lang=\"en\"&gt;&lt;head&gt;&lt;titl
+SF:e&gt;HTTP\x20Status\x20404\x20\xe2\x80\x93\x20Not\x20Found&lt;/title&gt;&lt;style\x
+SF:20type=\"text/css\"&gt;h1\x20{font-family:Tahoma,Arial,sans-serif;color:wh
+SF:ite;background-color:#525D76;font-size:22px;}\x20h2\x20{font-family:Tah
+SF:oma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16p
+SF:x;}\x20h3\x20{font-family:Tahoma,Arial,sans-serif;color:white;backgroun
+SF:d-color:#525D76;font-size:14px;}\x20body\x20{font-family:Tahoma,Arial,s
+SF:ans-serif;color:black;background-color:white;}\x20b\x20{font-family:Tah
+SF:oma,Arial,sans-serif;color:white;background-color:#525D76;}\x20p\x20{fo
+SF:nt-family:Tahoma,Arial,sans-serif;background:white;color:black;font-siz
+SF:e:12px;}\x20a\x20{color:black;}\x20a\.name\x20{color:black;}\x20\.line\
+SF:x20{height:1px;background-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;bo
+SF:dy&gt;");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port8080-TCP:V=7.70%I=2%D=4/15%Time=5AD34E5E%P=x86_64-pc-linux-gnu%r(Ge
+SF:tRequest,786,"HTTP/1\.1\x20200\x20\r\nAccept-Ranges:\x20bytes\r\nETag:\
+SF:x20W/\"1708-1519762495000\"\r\nLast-Modified:\x20Tue,\x2027\x20Feb\x202
+SF:018\x2020:14:55\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:
+SF:\x201708\r\nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20GMT\r\nCo
+SF:nnection:\x20close\r\n\r\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n&lt;head&gt;\n\x20\x20\
+SF:x20\x20&lt;meta\x20charset=\"utf-8\"/&gt;\n\x20\x20\x20\x20&lt;title&gt;Stratospher
+SF:e&lt;/title&gt;\n\x20\x20\x20\x20&lt;link\x20rel=\"stylesheet\"\x20type=\"text/c
+SF:ss\"\x20href=\"main\.css\"&gt;\n&lt;/head&gt;\n\n&lt;body&gt;\n&lt;div\x20id=\"background
+SF:\"&gt;&lt;/div&gt;\n&lt;header\x20id=\"main-header\"\x20class=\"hidden\"&gt;\n\x20\x20
+SF:&lt;div\x20class=\"container\"&gt;\n\x20\x20\x20\x20&lt;div\x20class=\"content-w
+SF:rap\"&gt;\n\x20\x20\x20\x20\x20\x20&lt;p&gt;&lt;i\x20class=\"fa\x20fa-diamond\"&gt;&lt;/i
+SF:&gt;&lt;/p&gt;\n\x20\x20\x20\x20\x20\x20&lt;nav&gt;\n\x20\x20\x20\x20\x20\x20\x20\x20&lt;
+SF:a\x20class=\"btn\"\x20href=\"GettingStarted\.html\"&gt;Get\x20started&lt;/a&gt;\
+SF:n\x20\x20\x20\x20\x20\x20&lt;/nav&gt;\n\x20\x20\x20\x20&lt;/div&gt;\n\x20\x20&lt;/div&gt;
+SF:\n&lt;/header&gt;\n\n&lt;section\x20id=\"greeting\"&gt;\n\x20\x20&lt;div\x20class=\"co
+SF:ntainer\"&gt;\n\x20\x20\x20\x20&lt;div\x20class=\"content-wrap\"&gt;\n\x20\x20\x
+SF:20\x20\x20\x20&lt;h1&gt;Stratosphere&lt;br&gt;We\x20protect\x20your\x20credit\.&lt;/h1
+SF:&gt;\n\x20\x20\x20\x20\x20\x20&lt;a\x20class=\"btn\"\x20href=\"GettingStarted
+SF:\.html\"&gt;Get\x20started\x20now&lt;/a&gt;\n\x20\x20\x20\x20\x20\x20&lt;p&gt;&lt;i\x20cl
+SF:ass=\"ar")%r(HTTPOptions,8A,"HTTP/1\.1\x20200\x20\r\nAllow:\x20GET,\x20
+SF:HEAD,\x20POST,\x20PUT,\x20DELETE,\x20OPTIONS\r\nContent-Length:\x200\r\
+SF:nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x20GMT\r\nConnection:\x
+SF:20close\r\n\r\n")%r(RTSPRequest,6A,"HTTP/1\.1\x20400\x20\r\nTransfer-En
+SF:coding:\x20chunked\r\nDate:\x20Sun,\x2015\x20Apr\x202018\x2013:06:44\x2
+SF:0GMT\r\nConnection:\x20close\r\n\r\n0\r\n\r\n")%r(FourOhFourRequest,4F6
+SF:,"HTTP/1\.1\x20404\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nC
+SF:ontent-Language:\x20en\r\nContent-Length:\x201114\r\nDate:\x20Sun,\x201
+SF:5\x20Apr\x202018\x2013:06:44\x20GMT\r\nConnection:\x20close\r\n\r\n&lt;!do
+SF:ctype\x20html&gt;&lt;html\x20lang=\"en\"&gt;&lt;head&gt;&lt;title&gt;HTTP\x20Status\x20404\x
+SF:20\xe2\x80\x93\x20Not\x20Found&lt;/title&gt;&lt;style\x20type=\"text/css\"&gt;h1\x2
+SF:0{font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525
+SF:D76;font-size:22px;}\x20h2\x20{font-family:Tahoma,Arial,sans-serif;colo
+SF:r:white;background-color:#525D76;font-size:16px;}\x20h3\x20{font-family
+SF::Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size
+SF::14px;}\x20body\x20{font-family:Tahoma,Arial,sans-serif;color:black;bac
+SF:kground-color:white;}\x20b\x20{font-family:Tahoma,Arial,sans-serif;colo
+SF:r:white;background-color:#525D76;}\x20p\x20{font-family:Tahoma,Arial,sa
+SF:ns-serif;background:white;color:black;font-size:12px;}\x20a\x20{color:b
+SF:lack;}\x20a\.name\x20{color:black;}\x20\.line\x20{height:1px;background
+SF:-color:#525D76;border:none;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;");
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.13 (92%), Linux 3.2 - 4.9 (92%), Linux 3.16 (90%), Linux 3.16 - 4.6 (90%), Linux 3.18 (90%), Linux 4.2 (90%), Linux 4.4 (90%), Crestron XPanel control system (90%), Linux 3.12 (89%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for ariekei.htb (10.10.10.65)
+Host is up (0.025s latency).
+Not shown: 98 closed ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+443/tcp open  ssl/http nginx 1.10.2
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=40421%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%II=I%TS=8)SEQ(SP=1
+OS:03%GCD=1%ISR=109%TI=Z%CI=I%TS=8)SEQ(SP=104%GCD=1%ISR=10A%TI=Z%CI=I%II=I%
+OS:TS=8)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5
+OS:=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=
+OS:7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%
+OS:A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S
+OS:=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R
+OS:=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N
+OS:%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for nightmare.htb (10.10.10.66)
+Host is up (0.024s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%), Linux 4.4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for inception.htb (10.10.10.67)
+Host is up (0.024s latency).
+Not shown: 98 filtered ports
+PORT     STATE SERVICE    VERSION
+80/tcp   open  http       Apache httpd 2.4.18 ((Ubuntu))
+3128/tcp open  http-proxy Squid http proxy 3.5.12
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.18 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for bashed.htb (10.10.10.68)
+Host is up (0.025s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=80%CT=7%CU=38938%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10A%TI=Z%CI=I%II=I%TS=8)OPS
+OS:(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST1
+OS:1NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN
+OS:(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for fluxcapacitor.htb (10.10.10.69)
+Host is up (0.025s latency).
+Not shown: 99 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.70%I=2%D=4/15%Time=5AD34E5E%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,270,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2015\x20Apr\x20201
+SF:8\x2013:06:43\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Length:\x
+SF:20395\r\nLast-Modified:\x20Tue,\x2005\x20Dec\x202017\x2016:02:29\x20GMT
+SF:\r\nConnection:\x20close\r\nETag:\x20\"5a26c315-18b\"\r\nServer:\x20Sup
+SF:erWAF\r\nAccept-Ranges:\x20bytes\r\n\r\n&lt;!DOCTYPE\x20html&gt;\n&lt;html&gt;\n&lt;he
+SF:ad&gt;\n&lt;title&gt;Keep\x20Alive&lt;/title&gt;\n&lt;/head&gt;\n&lt;body&gt;\n\tOK:\x20node1\x20a
+SF:live\n\t&lt;!--\n\t\tPlease,\x20add\x20timestamp\x20with\x20something\x20l
+SF:ike:\n\t\t&lt;script&gt;\x20\$\.ajax\({\x20type:\x20\"GET\",\x20url:\x20'/syn
+SF:c'\x20}\);\x20&lt;/script&gt;\n\t--&gt;\n\t&lt;hr/&gt;\n\tFluxCapacitor\x20Inc\.\x20in
+SF:fo@fluxcapacitor\.htb\x20-\x20http://fluxcapacitor\.htb&lt;br&gt;\n\t&lt;em&gt;&lt;met
+SF:&gt;&lt;doc&gt;&lt;brown&gt;Roads\?\x20Where\x20we're\x20going,\x20we\x20don't\x20need
+SF:\x20roads\.&lt;/brown&gt;&lt;/doc&gt;&lt;/met&gt;&lt;/em&gt;\n&lt;/body&gt;\n&lt;/html&gt;\n")%r(HTTPOption
+SF:s,135,"HTTP/1\.1\x20405\x20Not\x20Allowed\r\nDate:\x20Sun,\x2015\x20Apr
+SF:\x202018\x2013:06:44\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Le
+SF:ngth:\x20179\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;405\
+SF:x20Not\x20Allowed&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\"white\"&gt;\r\n&lt;cen
+SF:ter&gt;&lt;h1&gt;405\x20Not\x20Allowed&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty/1\
+SF:.13\.6\.1&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n")%r(RTSPRequest,B3,"&lt;html&gt;
+SF:\r\n&lt;head&gt;&lt;title&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcol
+SF:or=\"white\"&gt;\r\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr
+SF:&gt;&lt;center&gt;openresty/1\.13\.6\.1&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n")%r(X
+SF:11Probe,135,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x20Sun,\x2015\
+SF:x20Apr\x202018\x2013:06:44\x20GMT\r\nContent-Type:\x20text/html\r\nCont
+SF:ent-Length:\x20179\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;titl
+SF:e&gt;400\x20Bad\x20Request&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\"white\"&gt;\r
+SF:\n&lt;center&gt;&lt;h1&gt;400\x20Bad\x20Request&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openre
+SF:sty/1\.13\.6\.1&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n")%r(FourOhFourReques
+SF:t,12F,"HTTP/1\.1\x20404\x20Not\x20Found\r\nDate:\x20Sun,\x2015\x20Apr\x
+SF:202018\x2013:06:44\x20GMT\r\nContent-Type:\x20text/html\r\nContent-Leng
+SF:th:\x20175\r\nConnection:\x20close\r\n\r\n&lt;html&gt;\r\n&lt;head&gt;&lt;title&gt;404\x2
+SF:0Not\x20Found&lt;/title&gt;&lt;/head&gt;\r\n&lt;body\x20bgcolor=\"white\"&gt;\r\n&lt;center&gt;
+SF:&lt;h1&gt;404\x20Not\x20Found&lt;/h1&gt;&lt;/center&gt;\r\n&lt;hr&gt;&lt;center&gt;openresty/1\.13\.6
+SF:\.1&lt;/center&gt;\r\n&lt;/body&gt;\r\n&lt;/html&gt;\r\n");
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=80%CT=7%CU=37182%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=107%TI=Z%CI=I%II=I%TS=A)SEQ
+OS:(SP=F8%GCD=1%ISR=104%TI=Z%II=I%TS=A)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3
+OS:=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=7
+OS:120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW
+OS:7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF
+OS:=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=
+OS:%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=
+OS:0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RI
+OS:PCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+Nmap scan report for canape.htb (10.10.10.70)
+Host is up (0.024s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.18 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for rabbit.htb (10.10.10.71)
+Host is up (0.057s latency).
+Not shown: 88 closed ports
+PORT     STATE SERVICE       VERSION
+25/tcp   open  smtp          Microsoft Exchange smtpd
+53/tcp   open  domain        Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+80/tcp   open  http          Microsoft IIS httpd 7.5
+88/tcp   open  kerberos-sec  Microsoft Windows Kerberos (server time: 2018-04-15 18:06:45Z)
+135/tcp  open  msrpc         Microsoft Windows RPC
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+443/tcp  open  ssl/http      Microsoft IIS httpd 7.5
+445/tcp  open  microsoft-ds?
+587/tcp  open  smtp          Microsoft Exchange smtpd
+3306/tcp open  mysql?
+6001/tcp open  ncacn_http    Microsoft Windows RPC over HTTP 1.0
+8080/tcp open  http          Apache httpd 2.4.27 ((Win64) PHP/5.6.31)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=25%CT=7%CU=31922%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10E%II=I%TS=7)SEQ(SP=102%GC
+OS:D=1%ISR=10E%TS=7)OPS(O1=M54DNW8ST11%O2=M54DNW8ST11%O3=M54DNW8NNT11%O4=M5
+OS:4DNW8ST11%O5=M54DNW8ST11%O6=M54DST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000
+OS:%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M54DNW8NNS%CC=N%Q=)T1(R=Y%DF
+OS:=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%
+OS:Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A
+OS:%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y
+OS:%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR
+OS:%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RU
+OS:D=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: Hosts: Rabbit.htb.local, RABBIT; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+Nmap scan report for falafel.htb (10.10.10.73)
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.4 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=37815%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10D%TI=Z%CI=I%II=I%TS=8)OPS
+OS:(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST1
+OS:1NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN
+OS:(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for chatterbox.htb (10.10.10.74)
+Host is up (0.024s latency).
+All 100 scanned ports on chatterbox.htb (10.10.10.74) are filtered
+Too many fingerprints match this host to give specific OS details
+
+Nmap scan report for nibbles.htb (10.10.10.75)
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=33095%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=103%TI=Z%CI=I%II=I%TS=8)OPS
+OS:(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST1
+OS:1NW7%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN
+OS:(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R
+OS:=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F
+OS:=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%
+OS:T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD
+OS:=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for aragog.htb (10.10.10.78)
+Host is up (0.024s latency).
+Not shown: 97 closed ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+22/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.18 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=21%CT=7%CU=43268%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10A%TI=Z%CI=I%II=I%TS=A)SEQ
+OS:(SP=103%GCD=1%ISR=10A%TI=Z%TS=A)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M54
+OS:DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=7120%
+OS:W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC
+OS:=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T
+OS:=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=
+OS:0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=
+OS:G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for valentine.htb (10.10.10.79)
+Host is up (0.024s latency).
+Not shown: 97 closed ports
+PORT    STATE SERVICE  VERSION
+22/tcp  open  ssh      OpenSSH 5.9p1 Debian 5ubuntu1.10 (Ubuntu Linux; protocol 2.0)
+80/tcp  open  http     Apache httpd 2.2.22 ((Ubuntu))
+443/tcp open  ssl/http Apache httpd 2.2.22 ((Ubuntu))
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=38576%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=107%TI=Z%CI=Z%II=I%TS=8)OPS
+OS:(O1=M54DST11NW4%O2=M54DST11NW4%O3=M54DNNT11NW4%O4=M54DST11NW4%O5=M54DST1
+OS:1NW4%O6=M54DST11)WIN(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=3890)ECN
+OS:(R=Y%DF=Y%T=40%W=3908%O=M54DNNSNW4%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=A
+OS:S%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=3890%S=O%A=S+%F=AS%O=M54DST11NW4%RD=
+OS:0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=
+OS:Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=
+OS:Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%R
+OS:IPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for crimestoppers.htb (10.10.10.80)
+Host is up (0.023s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.4.25 ((Ubuntu))
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.12 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.2 - 4.9 (92%), Linux 3.8 - 3.11 (92%), Linux 4.2 (92%), Linux 4.4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+
+Nmap scan report for bart.htb (10.10.10.81)
+Host is up (0.033s latency).
+Not shown: 99 filtered ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Microsoft IIS httpd 10.0
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose
+Running (JUST GUESSING): FreeBSD 6.X (86%)
+OS CPE: cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: FreeBSD 6.2-RELEASE (86%)
+No exact OS matches for host (test conditions non-ideal).
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for silo.htb (10.10.10.82)
+Host is up (0.024s latency).
+Not shown: 92 closed ports
+PORT      STATE SERVICE      VERSION
+80/tcp    open  http         Microsoft IIS httpd 8.5
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+49155/tcp open  unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=80%CT=7%CU=41217%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=109%CI=I%II=I%TS=7)SEQ(SP=1
+OS:03%GCD=1%ISR=109%TS=7)SEQ(SP=103%GCD=1%ISR=109%CI=I%TS=7)OPS(O1=M54DNW8S
+OS:T11%O2=M54DNW8ST11%O3=M54DNW8NNT11%O4=M54DNW8ST11%O5=M54DNW8ST11%O6=M54D
+OS:ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=
+OS:80%W=2000%O=M54DNW8NNS%CC=Y%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2
+OS:(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%
+OS:F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%
+OS:T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD
+OS:=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL
+OS:=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 2 hops
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Nmap scan report for poison.htb (10.10.10.84)
+Host is up (0.024s latency).
+Not shown: 98 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.2 (FreeBSD 20161230; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.29 ((FreeBSD) PHP/5.6.32)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=22%CT=7%CU=30187%PV=Y%DS=2%DC=I%G=Y%TM=5AD34E9
+OS:8%P=x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=10C%TI=Z%CI=Z%II=RI%TS=21)O
+OS:PS(O1=M54DNW6ST11%O2=M54DNW6ST11%O3=M280NW6NNT11%O4=M54DNW6ST11%O5=M218N
+OS:W6ST11%O6=M109ST11)WIN(W1=FFFF%W2=FFFF%W3=FFFF%W4=FFFF%W5=FFFF%W6=FFFF)E
+OS:CN(R=Y%DF=Y%T=40%W=FFFF%O=M54DNW6SLL%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F
+OS:=AS%RD=0%Q=)T2(R=N)T3(R=Y%DF=Y%T=40%W=FFFF%S=O%A=S+%F=AS%O=M109NW6ST11%R
+OS:D=0%Q=)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%
+OS:S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(
+OS:R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=38%UN=0%
+OS:RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=S%T=40%CD=S)
+
+Network Distance: 2 hops
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Nmap scan report for celestial.htb (10.10.10.85)
+Host is up (0.024s latency).
+Not shown: 99 closed ports
+PORT     STATE SERVICE VERSION
+3000/tcp open  http    Node.js Express framework
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/15%OT=3000%CT=7%CU=43114%PV=Y%DS=2%DC=I%G=Y%TM=5AD34
+OS:E98%P=x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10B%TI=Z%CI=I%II=I%TS=8)S
+OS:EQ(SP=FE%GCD=1%ISR=109%TI=Z%TS=8)OPS(O1=M54DST11NW7%O2=M54DST11NW7%O3=M5
+OS:4DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%O6=M54DST11)WIN(W1=7120%W2=7120
+OS:%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%DF=Y%T=40%W=7210%O=M54DNNSNW7%C
+OS:C=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%
+OS:T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD
+OS:=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S
+OS:=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK
+OS:=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Network Distance: 2 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (24 hosts up) scanned in 77.10 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.2"></address><hostnames></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.57"></address><hostnames><hostname type="PTR" name="minion.htb"></hostname></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.59"></address><hostnames><hostname type="PTR" name="tally.htb"></hostname></hostnames><ports><extraports count="93" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft ftpd" method="probed" conf="10" name="ftp"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="10.0" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="81"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" method="probed" conf="10" name="microsoft-ds"></service></port><port protocol="tcp" portid="1433"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft SQL Server 2016" version="13.00.1601" method="probed" conf="10" name="ms-sql-s"></service></port></ports><os><portused state="open" portid="21" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="31692" proto="udp"></portused><osmatch line="75783" name="Microsoft Windows Server 2016 build 10586 - 14393" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2016" accuracy="96"></osclass></osmatch><osmatch line="75746" name="Microsoft Windows Server 2016" accuracy="95"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2016" accuracy="95"></osclass></osmatch><osmatch line="69044" name="Microsoft Windows 10 1507" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="93"></osclass></osmatch><osmatch line="69086" name="Microsoft Windows 10 1507 - 1607" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="93"></osclass></osmatch><osmatch line="75018" name="Microsoft Windows Server 2012" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="93"></osclass></osmatch><osmatch line="75351" name="Microsoft Windows Server 2012 R2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="93"></osclass></osmatch><osmatch line="75621" name="Microsoft Windows Server 2012 R2 Update 1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="93"></osclass></osmatch><osmatch line="77414" name="Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="93"></osclass></osmatch><osmatch line="79709" name="Microsoft Windows Vista SP1 - SP2, Windows Server 2008 SP2, or Windows 7" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="93"></osclass></osmatch><osmatch line="79616" name="Microsoft Windows Vista SP1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="93"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 11:02:40 2018" seconds="14696"></uptime><tcpsequence index="258" values="D6B5352E,B715FD61,E5854485,D9879F1F,9A9D867F,3F5614CA" difficulty="Good luck!"></tcpsequence><ipidsequence values="4F45,4F43,4F44,4F46,4F47,4F48" class="Randomized"></ipidsequence><tcptssequence values="E02C00,E02BF0,E02C00,E02C00,E02DAD,E02E13" class="1000HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.60"></address><hostnames><hostname type="PTR" name="sense.htb"></hostname></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="lighttpd" version="1.4.35" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="lighttpd" version="1.4.35" method="probed" conf="10" name="http"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="19189" name="Comau C4G robot control unit" accuracy="92"><osclass type="specialized" osfamily="embedded" vendor="Comau" osgen="" accuracy="92"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 15:07:08 2018" seconds="28"></uptime><tcpsequence index="252" values="5248C3C8,73D880CF,C45F83B8,84EB6203,31E75CB2,D86ED519" difficulty="Good luck!"></tcpsequence><ipidsequence values="CB61,C6E2,E63D,5CA3,8387,8F14" class="Randomized"></ipidsequence><tcptssequence values="F40145F0,1B304357,42FB80C9,9378DFFC,C5456C8C,48D1C59B" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.62"></address><hostnames><hostname type="PTR" name="fulcrum.htb"></hostname></hostnames><ports><extraports count="96" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="9999"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="31063" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="63962" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 14:27:38 2018" seconds="2398"></uptime><tcpsequence index="263" values="E5322A0D,877AE8D,F9ED863B,7756E646,141C0931,779961F8" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="91873,9188C,918A5,918BE,918D7,918F0" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.63"></address><hostnames><hostname type="PTR" name="jeeves.htb"></hostname></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="10.0" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows 7 - 10 microsoft-ds" extrainfo="workgroup: WORKGROUP" method="probed" conf="10" name="microsoft-ds"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="74118" name="Microsoft Windows Server 2008 R2" accuracy="91"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="91"></osclass></osmatch><osmatch line="69178" name="Microsoft Windows 10 1511 - 1607" accuracy="87"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="10" accuracy="87"></osclass></osmatch><osmatch line="77581" name="Microsoft Windows 8.1 Update 1" accuracy="86"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="86"></osclass></osmatch><osmatch line="78869" name="Microsoft Windows Phone 7.5 or 8.0" accuracy="86"><osclass type="phone" osfamily="Windows" vendor="Microsoft" osgen="Phone" accuracy="86"></osclass></osmatch><osmatch line="27364" name="FreeBSD 6.2-RELEASE" accuracy="86"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="6.X" accuracy="86"></osclass></osmatch><osmatch line="73917" name="Microsoft Windows 7 or Windows Server 2008 R2" accuracy="85"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="85"></osclass></osmatch><osmatch line="74462" name="Microsoft Windows Server 2008 R2 or Windows 8.1" accuracy="85"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="85"></osclass></osmatch><osmatch line="74646" name="Microsoft Windows Server 2008 R2 SP1 or Windows 8" accuracy="85"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="85"></osclass></osmatch><osmatch line="75728" name="Microsoft Windows Server 2016" accuracy="85"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2016" accuracy="85"></osclass></osmatch><osmatch line="75938" name="Microsoft Windows 7" accuracy="85"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="85"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 10:58:36 2018" seconds="14940"></uptime><tcpsequence index="262" values="B55837BB,2D52F013,4C7777BD,452B4BBA,C84E6E41,FEB583D" difficulty="Good luck!"></tcpsequence><ipidsequence values="5C71,5C72,5C73,5C75,5C78,5C7A" class="Incremental"></ipidsequence><tcptssequence values="E3AAF4,E3AB58,E3ABBB,E3AC22,E3ACE8,E3AD4B" class="1000HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.64"></address><hostnames><hostname type="PTR" name="stratosphere.htb"></hostname></hostnames><ports><extraports count="97" state="filtered"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="protocol 2.0" version="7.4p1 Debian 10+deb9u2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http-proxy"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63680" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="90"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="90"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="90"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="90"></osclass></osmatch><osmatch line="67111" name="Linux 4.4" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="90"></osclass></osmatch><osmatch line="19544" name="Crestron XPanel control system" accuracy="90"><osclass type="specialized" osfamily="2-Series" vendor="Crestron" osgen="" accuracy="90"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="89"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="89"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 04:19:21 2018" seconds="38895"></uptime><tcpsequence index="248" values="A1135BBE,A6ECB35B,BB9448E8,90CA6619,61276726,5B06C8D7" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="931CC8,931CE0,931CF9,931D18,931D44,931D5D" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.65"></address><hostnames><hostname type="PTR" name="ariekei.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="62"></state><service product="nginx" version="1.10.2" method="probed" conf="10" name="http"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="40421" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67713" name="Linux 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 14:07:45 2018" seconds="3591"></uptime><tcpsequence index="260" values="37E6BAB9,42C93204,1D5664C2,C91C50EF,1FA2DF1A,C399A3FF" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="DA0A5,DA0BE,DA0D7,DA0F0,DA109,DA122" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.66"></address><hostnames><hostname type="PTR" name="nightmare.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="67075" name="Linux 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="67111" name="Linux 4.4" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch></os><uptime lastboot="Sat Apr 14 22:55:00 2018" seconds="58356"></uptime><tcpsequence index="261" values="65838D3F,E4B72462,D5C35FB7,69E2B857,26892D03,677347F6" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="DE8991,DE89AA,DE89C3,DE89F5,DE8A0E,DE8A27" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.67"></address><hostnames><hostname type="PTR" name="inception.htb"></hostname></hostnames><ports><extraports count="98" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="62"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port><port protocol="tcp" portid="3128"><state reason="syn-ack" state="open" reason_ttl="62"></state><service product="Squid http proxy" version="3.5.12" method="probed" conf="10" name="http-proxy"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="67075" name="Linux 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch></os><uptime lastboot="Sat Apr 14 17:58:45 2018" seconds="76131"></uptime><tcpsequence index="259" values="F180BC30,1D13685E,C4E3CBBE,D39FA045,B4048CD2,5B3E7A34" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="12257C7,12257E0,12257FF,122582B,1225844,122585D" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.68"></address><hostnames><hostname type="PTR" name="bashed.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="38938" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67713" name="Linux 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 15:03:31 2018" seconds="245"></uptime><tcpsequence index="262" values="BDD19627,7B9F08FD,815184FC,B2F033FE,F88C10C5,7E7669A4" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="EC30,EC49,EC63,EC7B,EC94,ECAE" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.69"></address><hostnames><hostname type="PTR" name="fluxcapacitor.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="http"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="37182" proto="udp"></portused><osmatch line="64256" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="63962" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="62708" name="Linux 3.1" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="64455" name="Linux 3.2" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="93"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="66575" name="DD-WRT (Linux 3.18)" accuracy="93"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch></os><uptime lastboot="Fri Mar 23 14:36:07 2018" seconds="1985489"></uptime><tcpsequence index="257" values="EF0D687B,1FD324FE,C67AD2FC,F90DA606,DEFCAFBD,F50FAAE6" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="76581725,76581789,765817EE,76581851,765818B5,7658191C" class="1000HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.70"></address><hostnames><hostname type="PTR" name="canape.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="67075" name="Linux 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 14:42:23 2018" seconds="1513"></uptime><tcpsequence index="261" values="D7044E11,2EED625D,FC443DC,9B3C7012,5D48593C,CFB7BCE8" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="5B880,5B8B1,5B8CB,5B8E4,5B8FD,5B916" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.71"></address><hostnames><hostname type="PTR" name="rabbit.htb"></hostname></hostnames><ports><extraports count="88" state="closed"></extraports><port protocol="tcp" portid="25"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Exchange smtpd" method="probed" conf="10" name="smtp"></service></port><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="7.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2018-04-15 18:06:45Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="7.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="587"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Exchange smtpd" method="probed" conf="10" name="smtp"></service></port><port protocol="tcp" portid="3306"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="mysql"></service></port><port protocol="tcp" portid="6001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Apache httpd" name="http" extrainfo="(Win64) PHP/5.6.31" version="2.4.27" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="25" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="31922" proto="udp"></portused><osmatch line="73937" name="Microsoft Windows Home Server 2011 (Windows Server 2008 R2)" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74720" name="Microsoft Windows Server 2008 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74885" name="Microsoft Windows Server 2008 SP2" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74996" name="Microsoft Windows Server 2008 SP2 or Windows 10 or Xbox One" accuracy="96"><osclass type="media device" osfamily="embedded" vendor="Microsoft" osgen="" accuracy="96"></osclass></osmatch><osmatch line="75974" name="Microsoft Windows 7" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="76695" name="Microsoft Windows 7 SP0 - SP1 or Windows Server 2008" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="76720" name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="77298" name="Microsoft Windows 7 Ultimate" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="77390" name="Microsoft Windows 7 Ultimate SP1 or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8" accuracy="96"></osclass></osmatch><osmatch line="77642" name="Microsoft Windows 8.1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 07:19:52 2018" seconds="28064"></uptime><tcpsequence index="258" values="7559872F,F84466C8,3643A7D7,EEF02EEE,25CFEFDD,8E82B2DA" difficulty="Good luck!"></tcpsequence><ipidsequence values="DEA,DEB,E01,E5C,E81,E90" class="Busy server or unknown class"></ipidsequence><tcptssequence values="1B66E7,1B66E7,1B66E9,1B66F3,1B6705,1B6707" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.73"></address><hostnames><hostname type="PTR" name="falafel.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.4" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="37815" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 08:29:47 2018" seconds="23869"></uptime><tcpsequence index="257" values="6701E94,4DF27CE7,C4F84884,133F6531,3BA1D540,8A592C23" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="5B08F0,5B0909,5B0922,5B093B,5B0954,5B096D" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.74"></address><hostnames><hostname type="PTR" name="chatterbox.htb"></hostname></hostnames><ports><extraports count="100" state="filtered"></extraports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.75"></address><hostnames><hostname type="PTR" name="nibbles.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="33095" proto="udp"></portused><osmatch line="63680" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67713" name="Linux 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="63962" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 15:05:15 2018" seconds="141"></uptime><tcpsequence index="257" values="54955F5B,14C022B3,62600C5,E7BADA9,FBEF0BCF,B739B3C1" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="8596,85AF,85C8,85E1,85FA,8613" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.78"></address><hostnames><hostname type="PTR" name="aragog.htb"></hostname></hostnames><ports><extraports count="97" state="closed"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="vsftpd" version="3.0.3" method="probed" conf="10" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="21" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="43268" proto="udp"></portused><osmatch line="64256" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="63962" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="62708" name="Linux 3.1" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="64455" name="Linux 3.2" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="93"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63736" name="Linux 3.13 - 3.16" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch></os><uptime lastboot="Thu Mar 22 09:51:04 2018" seconds="2088992"></uptime><tcpsequence index="258" values="43C79B25,2AE6068F,90D479B6,473E4E5A,932701C1,B89CE66F" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="7C836A80,7C836AE4,7C836B49,7C836BAC,7C836C10,7C836C74" class="1000HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.79"></address><hostnames><hostname type="PTR" name="valentine.htb"></hostname></hostnames><ports><extraports count="97" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="5.9p1 Debian 5ubuntu1.10" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.2.22" conf="10" method="probed"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.2.22" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="38576" proto="udp"></portused><osmatch line="59748" name="Nokia N9 phone (Linux 2.6.32)" accuracy="95"><osclass type="phone" osfamily="embedded" vendor="Nokia" osgen="" accuracy="95"></osclass></osmatch><osmatch line="62197" name="Linux 3.0" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="56585" name="Linux 2.6.32 - 3.5" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64365" name="Linux 3.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="57881" name="Linux 2.6.38 - 3.0" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="94"></osclass></osmatch><osmatch line="57858" name="Linux 2.6.38 - 2.6.39" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="94"></osclass></osmatch><osmatch line="57982" name="Linux 2.6.39" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="2.6.X" accuracy="94"></osclass></osmatch><osmatch line="65438" name="Linux 3.5" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="56381" name="Linux 2.6.32 - 3.10" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="56628" name="Linux 2.6.32 - 3.9" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 11:59:11 2018" seconds="11305"></uptime><tcpsequence index="259" values="BC21757,F16BCCDF,5D60ECB0,367903F0,11A600D3,F23121B2" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="2B1BD6,2B1BEF,2B1C09,2B1C21,2B1C3A,2B1C53" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.80"></address><hostnames><hostname type="PTR" name="crimestoppers.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.25" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="67075" name="Linux 4.2" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="67111" name="Linux 4.4" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch></os><uptime lastboot="Fri Oct 20 09:22:53 2017" seconds="15313483"></uptime><tcpsequence index="263" values="D988686B,5378D0FF,E4728FEF,F66D285A,8C16BC4C,C0E28253" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="E4303A2A,E4303A43,E4303A5C,E4303A75,E4303A8E,E4303AAD" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.81"></address><hostnames><hostname type="PTR" name="bart.htb"></hostname></hostnames><ports><extraports count="99" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="10.0" method="probed" conf="10" name="http"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="27364" name="FreeBSD 6.2-RELEASE" accuracy="86"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="6.X" accuracy="86"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 10:07:06 2018" seconds="18030"></uptime><tcpsequence index="256" values="6F5937B5,C29114E1,84F73A60,95678DAC,68A81BE1,B09F5D16" difficulty="Good luck!"></tcpsequence><ipidsequence values="99B,9AE,9B1,9C1,9D7,9F2" class="Busy server or unknown class"></ipidsequence><tcptssequence values="112D2F8,112D3A9,112D420,112D472,112D4E1,112D59E" class="1000HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.82"></address><hostnames><hostname type="PTR" name="silo.htb"></hostname></hostnames><ports><extraports count="92" state="closed"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="8.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Server 2008 R2 - 2012 microsoft-ds" method="probed" conf="10" name="microsoft-ds"></service></port><port protocol="tcp" portid="49152"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49153"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="tcp" portid="49155"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="unknown"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="41217" proto="udp"></portused><osmatch line="75018" name="Microsoft Windows Server 2012" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="96"></osclass></osmatch><osmatch line="75279" name="Microsoft Windows Server 2012 R2" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="96"></osclass></osmatch><osmatch line="75621" name="Microsoft Windows Server 2012 R2 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="96"></osclass></osmatch><osmatch line="77414" name="Microsoft Windows 7, Windows Server 2012, or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="79616" name="Microsoft Windows Vista SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="96"></osclass></osmatch><osmatch line="75164" name="Microsoft Windows Server 2012 or Server 2012 R2" accuracy="95"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2012" accuracy="95"></osclass></osmatch><osmatch line="74976" name="Microsoft Windows Server 2008 SP2 Datacenter Version" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch><osmatch line="74100" name="Microsoft Windows Server 2008 R2" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch><osmatch line="73937" name="Microsoft Windows Home Server 2011 (Windows Server 2008 R2)" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch><osmatch line="74720" name="Microsoft Windows Server 2008 SP1" accuracy="93"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="93"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 13:10:19 2018" seconds="7037"></uptime><tcpsequence index="259" values="1F310692,410296BC,62248DC8,D02F561D,A791C624,69E96D6E" difficulty="Good luck!"></tcpsequence><ipidsequence values="4C4,4C7,4D4,4DC,4E6,4F3" class="Busy server or unknown class"></ipidsequence><tcptssequence values="ABB0C,ABB16,ABB20,ABB2A,ABB34,ABB3E" class="100HZ"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.84"></address><hostnames><hostname type="PTR" name="poison.htb"></hostname></hostnames><ports><extraports count="98" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="FreeBSD 20161230; protocol 2.0" version="7.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(FreeBSD) PHP/5.6.32" version="2.4.29" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="30187" proto="udp"></portused><osmatch line="26317" name="FreeBSD 11.0-RELEASE - 12.0-CURRENT" accuracy="97"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="12.X" accuracy="97"></osclass></osmatch><osmatch line="26337" name="FreeBSD 11.0-STABLE" accuracy="95"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="11.X" accuracy="95"></osclass></osmatch><osmatch line="26222" name="FreeBSD 11.0-CURRENT" accuracy="94"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="11.X" accuracy="94"></osclass></osmatch><osmatch line="26242" name="FreeBSD 11.0-RELEASE" accuracy="94"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="11.X" accuracy="94"></osclass></osmatch><osmatch line="29016" name="FreeBSD 9.1-STABLE" accuracy="92"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="9.X" accuracy="92"></osclass></osmatch><osmatch line="26394" name="FreeBSD 12.0-CURRENT" accuracy="91"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="12.X" accuracy="91"></osclass></osmatch><osmatch line="27832" name="FreeBSD 7.0-RELEASE" accuracy="91"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="7.X" accuracy="91"></osclass></osmatch><osmatch line="26181" name="Sony Playstation 4 or FreeBSD 10.2-RELEASE" accuracy="90"><osclass type="game console" osfamily="embedded" vendor="Sony" osgen="" accuracy="90"></osclass></osmatch><osmatch line="27976" name="FreeBSD 7.0-RELEASE-p2 - 7.1-PRERELEASE" accuracy="89"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="7.X" accuracy="89"></osclass></osmatch><osmatch line="27668" name="FreeBSD 7.0-CURRENT" accuracy="89"><osclass type="general purpose" osfamily="FreeBSD" vendor="FreeBSD" osgen="7.X" accuracy="89"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 15:07:31 2018" seconds="5"></uptime><tcpsequence index="257" values="2E1CD970,968D37D0,5B81A06B,3E6131D,296B4617,FF72BFFD" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="47FD06FE,F5EFE8A8,FE93117C,E7FE86B4,F09017E0,27FBAF86" class="other"></tcptssequence></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.85"></address><hostnames><hostname type="PTR" name="celestial.htb"></hostname></hostnames><ports><extraports count="99" state="closed"></extraports><port protocol="tcp" portid="3000"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Node.js Express framework" method="probed" conf="10" name="http"></service></port></ports><os><portused state="open" portid="3000" proto="tcp"></portused><portused state="closed" portid="7" proto="tcp"></portused><portused state="closed" portid="43114" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Sun Apr 15 14:37:35 2018" seconds="1801"></uptime><tcpsequence index="256" values="74F0660A,C42B4A1B,DE5B2CC3,268546ED,5DA7B2B6,BC66ADC7" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="6DA4D,6DA66,6DA7F,6DA98,6DAB1,6DACA" class="other"></tcptssequence></host><runstats><finished timestr="Sun Apr 15 15:07:36 2018" time="1523797656"></finished><hosts down="232" total="256" up="24"></hosts></runstats></nmaprun>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1523932144" profile_name="" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Tue Apr 17 04:29:04 2018" args="nmap -p 3632 v 10.10.10.3"><scaninfo services="3632" protocol="tcp" numservices="1" type="syn"></scaninfo><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-17 04:29 CEST
+Failed to resolve "v".
+Nmap scan report for 10.10.10.3
+Host is up (0.026s latency).
+
+PORT     STATE SERVICE
+3632/tcp open  distccd
+
+Nmap done: 1 IP address (1 host up) scanned in 0.42 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.3"></address><hostnames></hostnames><ports><port protocol="tcp" portid="3632"><state reason="syn-ack" state="open" reason_ttl="63"></state><service method="table" conf="3" name="distccd"></service></port></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence></host><runstats><finished timestr="Tue Apr 17 04:29:04 2018" time="1523932144"></finished><hosts down="0" total="1" up="1"></hosts></runstats></nmaprun>

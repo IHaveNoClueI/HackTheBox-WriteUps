@@ -1,0 +1,30 @@
+# Nmap 7.70 scan initiated Sun Apr 15 22:22:59 2018 as: nmap -A -sC -sV -oA nmap -p2222 10.10.10.66
+Nmap scan report for nightmare.htb (10.10.10.66)
+Host is up (0.021s latency).
+
+PORT     STATE SERVICE VERSION
+2222/tcp open  ssh     (protocol 2.0)
+| fingerprint-strings: 
+|   NULL: 
+|_    SSH-2.0-OpenSSH 32bit (not so recent ver)
+| ssh-hostkey: 
+|   1024 e2:71:84:5d:ed:07:89:98:68:8b:6e:78:da:84:4c:b5 (DSA)
+|   2048 bd:1c:11:9a:5b:15:d2:f6:28:76:c3:40:7c:80:6d:ec (RSA)
+|   256 bf:e8:25:bf:ca:92:55:bc:ca:a4:96:c7:43:d0:51:73 (ECDSA)
+|_  256 6f:14:30:b1:39:47:54:b7:5a:01:be:96:2c:a7:96:58 (ED25519)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port2222-TCP:V=7.70%I=7%D=4/15%Time=5AD3B4AA%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,2B,"SSH-2\.0-OpenSSH\x2032bit\x20\(not\x20so\x20recent\x20ver\)\r\n"
+SF:);
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.13 (92%), Linux 3.13 or 4.2 (92%), Linux 3.16 (92%), Linux 3.16 - 4.6 (92%), Linux 3.2 - 4.9 (92%), Linux 4.2 (92%), Linux 4.4 (92%), Linux 4.8 (92%), Linux 4.9 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 2 hops
+
+TRACEROUTE (using port 2222/tcp)
+HOP RTT      ADDRESS
+1   21.01 ms 10.10.14.1
+2   20.98 ms nightmare.htb (10.10.10.66)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 15 22:23:11 2018 -- 1 IP address (1 host up) scanned in 12.53 seconds

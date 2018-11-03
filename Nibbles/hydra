@@ -1,0 +1,15 @@
+Referer: http://10.10.10.75/nibbleblog/admin.php
+
+Cookie: PHPSESSID=ipr54rai7aoh7bqceak2k2ak45
+
+Connection: close
+
+Upgrade-Insecure-Requests: 1
+
+Content-Type: application/x-www-form-urlencoded
+
+Content-Length: 29
+
+
+
+username=admin&password=admin

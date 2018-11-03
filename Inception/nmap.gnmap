@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Thu Apr 12 16:58:18 2018 as: nmap -A -sC -sV -T4 -oA nmap 10.10.10.67
+Host: 10.10.10.67 (inception.htb)	Status: Up
+Host: 10.10.10.67 (inception.htb)	Ports: 80/open/tcp//http//Apache httpd 2.4.18 ((Ubuntu))/, 3128/open/tcp//http-proxy//Squid http proxy 3.5.12/	Ignored State: filtered (998)	Seq Index: 260	IP ID Seq: All zeros
+# Nmap done at Thu Apr 12 16:59:09 2018 -- 1 IP address (1 host up) scanned in 51.37 seconds

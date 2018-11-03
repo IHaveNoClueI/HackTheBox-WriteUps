@@ -1,0 +1,11 @@
+Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-21 18:46 CEST
+Nmap scan report for ariekei.htb (10.10.10.65)
+Host is up (0.022s latency).
+
+PORT      STATE  SERVICE
+80/udp    closed http
+135/udp   closed msrpc
+445/udp   closed microsoft-ds
+50000/udp closed unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.74 seconds

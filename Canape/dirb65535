@@ -1,0 +1,22 @@
+
+-----------------
+DIRB v2.22    
+By The Dark Raver
+-----------------
+
+START_TIME: Sun Apr 15 00:27:03 2018
+URL_BASE: http://10.10.10.70:65535/
+WORDLIST_FILES: /usr/share/dirb/wordlists/common.txt
+
+-----------------
+
+*** Generating Wordlist...                                                                               GENERATED WORDS: 4612
+
+---- Scanning URL: http://10.10.10.70:65535/ ----
+*** Calculating NOT_FOUND code...                                                                               
+(!) FATAL: Too many errors connecting to host
+    (Possible cause: RECV ERROR)
+                                                                               
+-----------------
+END_TIME: Sun Apr 15 00:27:03 2018
+DOWNLOADED: 0 - FOUND: 0

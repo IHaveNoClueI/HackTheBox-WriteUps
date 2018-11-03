@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1524693543" profile_name="Intense scan plus UDP" xmloutputversion="1.04" scanner="nmap" version="7.70" startstr="Wed Apr 25 23:59:03 2018" args="nmap -sS -sU -T4 -A -v 10.10.10.71 10.10.10.66 10.10.10.62 10.10.10.65 10.10.10.52 10.10.10.47 10.10.10.25 10.10.10.21"><scaninfo services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389" protocol="tcp" numservices="1000" type="syn"></scaninfo><scaninfo services="2-3,7,9,13,17,19-23,37-38,42,49,53,67-69,80,88,111-113,120,123,135-139,158,161-162,177,192,199,207,217,363,389,402,407,427,434,443,445,464,497,500,502,512-515,517-518,520,539,559,593,623,626,631,639,643,657,664,682-689,764,767,772-776,780-782,786,789,800,814,826,829,838,902-903,944,959,965,983,989-990,996-1001,1007-1008,1012-1014,1019-1051,1053-1060,1064-1070,1072,1080-1081,1087-1088,1090,1100-1101,1105,1124,1200,1214,1234,1346,1419,1433-1434,1455,1457,1484-1485,1524,1645-1646,1701,1718-1719,1761,1782,1804,1812-1813,1885-1886,1900-1901,1993,2000,2002,2048-2049,2051,2148,2160-2161,2222-2223,2343,2345,2362,2967,3052,3130,3283,3296,3343,3389,3401,3456-3457,3659,3664,3702-3703,4000,4008,4045,4444,4500,4666,4672,5000-5003,5010,5050,5060,5093,5351,5353,5355,5500,5555,5632,6000-6002,6004,6050,6346-6347,6970-6971,7000,7938,8000-8001,8010,8181,8193,8900,9000-9001,9020,9103,9199-9200,9370,9876-9877,9950,10000,10080,11487,16086,16402,16420,16430,16433,16449,16498,16503,16545,16548,16573,16674,16680,16697,16700,16708,16711,16739,16766,16779,16786,16816,16829,16832,16838-16839,16862,16896,16912,16918-16919,16938-16939,16947-16948,16970,16972,16974,17006,17018,17077,17091,17101,17146,17184-17185,17205,17207,17219,17236-17237,17282,17302,17321,17331-17332,17338,17359,17417,17423-17424,17455,17459,17468,17487,17490,17494,17505,17533,17549,17573,17580,17585,17592,17605,17615-17616,17629,17638,17663,17673-17674,17683,17726,17754,17762,17787,17814,17823-17824,17836,17845,17888,17939,17946,17989,18004,18081,18113,18134,18156,18228,18234,18250,18255,18258,18319,18331,18360,18373,18449,18485,18543,18582,18605,18617,18666,18669,18676,18683,18807,18818,18821,18830,18832,18835,18869,18883,18888,18958,18980,18985,18987,18991,18994,18996,19017,19022,19039,19047,19075,19096,19120,19130,19140-19141,19154,19161,19165,19181,19193,19197,19222,19227,19273,19283,19294,19315,19322,19332,19374,19415,19482,19489,19500,19503-19504,19541,19600,19605,19616,19624-19625,19632,19639,19647,19650,19660,19662-19663,19682-19683,19687,19695,19707,19717-19719,19722,19728,19789,19792,19933,19935-19936,19956,19995,19998,20003-20004,20019,20031,20082,20117,20120,20126,20129,20146,20154,20164,20206,20217,20249,20262,20279,20288,20309,20313,20326,20359-20360,20366,20380,20389,20409,20411,20423-20425,20445,20449,20464-20465,20518,20522,20525,20540,20560,20665,20678-20679,20710,20717,20742,20752,20762,20791,20817,20842,20848,20851,20865,20872,20876,20884,20919,21000,21016,21060,21083,21104,21111,21131,21167,21186,21206-21207,21212,21247,21261,21282,21298,21303,21318,21320,21333,21344,21354,21358,21360,21364,21366,21383,21405,21454,21468,21476,21514,21524-21525,21556,21566,21568,21576,21609,21621,21625,21644,21649,21655,21663,21674,21698,21702,21710,21742,21780,21784,21800,21803,21834,21842,21847,21868,21898,21902,21923,21948,21967,22029,22043,22045,22053,22055,22105,22109,22123-22124,22341,22692,22695,22739,22799,22846,22914,22986,22996,23040,23176,23354,23531,23557,23608,23679,23781,23965,23980,24007,24279,24511,24594,24606,24644,24854,24910,25003,25157,25240,25280,25337,25375,25462,25541,25546,25709,25931,26407,26415,26720,26872,26966,27015,27195,27444,27473,27482,27707,27892,27899,28122,28369,28465,28493,28543,28547,28641,28840,28973,29078,29243,29256,29810,29823,29977,30263,30303,30365,30544,30656,30697,30704,30718,30975,31059,31073,31109,31189,31195,31335,31337,31365,31625,31681,31731,31891,32345,32385,32528,32768-32780,32798,32815,32818,32931,33030,33249,33281,33354-33355,33459,33717,33744,33866,33872,34038,34079,34125,34358,34422,34433,34555,34570,34577-34580,34758,34796,34855,34861-34862,34892,35438,35702,35777,35794,36108,36206,36384,36458,36489,36669,36778,36893,36945,37144,37212,37393,37444,37602,37761,37783,37813,37843,38037,38063,38293,38412,38498,38615,39213,39217,39632,39683,39714,39723,39888,40019,40116,40441,40539,40622,40708,40711,40724,40732,40805,40847,40866,40915,41058,41081,41308,41370,41446,41524,41638,41702,41774,41896,41967,41971,42056,42172,42313,42431,42434,42508,42557,42577,42627,42639,43094,43195,43370,43514,43686,43824,43967,44101,44160,44179,44185,44190,44253,44334,44508,44923,44946,44968,45247,45380,45441,45685,45722,45818,45928,46093,46532,46836,47624,47765,47772,47808,47915,47981,48078,48189,48255,48455,48489,48761,49152-49163,49165-49182,49184-49202,49204-49205,49207-49216,49220,49222,49226,49259,49262,49306,49350,49360,49393,49396,49503,49640,49968,50099,50164,50497,50612,50708,50919,51255,51456,51554,51586,51690,51717,51905,51972,52144,52225,52503,53006,53037,53571,53589,53838,54094,54114,54281,54321,54711,54807,54925,55043,55544,55587,56141,57172,57409-57410,57813,57843,57958,57977,58002,58075,58178,58419,58631,58640,58797,59193,59207,59765,59846,60172,60381,60423,61024,61142,61319,61322,61370,61412,61481,61550,61685,61961,62154,62287,62575,62677,62699,62958,63420,63555,64080,64481,64513,64590,64727,65024" protocol="udp" numservices="1000" type="udp"></scaninfo><verbose level="1"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.70 ( https://nmap.org ) at 2018-04-25 23:59 CEST
+NSE: Loaded 148 scripts for scanning.
+NSE: Script Pre-scanning.
+Initiating NSE at 23:59
+Completed NSE at 23:59, 0.00s elapsed
+Initiating NSE at 23:59
+Completed NSE at 23:59, 0.00s elapsed
+Initiating Ping Scan at 23:59
+Scanning 8 hosts [4 ports/host]
+Completed Ping Scan at 23:59, 0.34s elapsed (8 total hosts)
+Initiating Parallel DNS resolution of 8 hosts. at 23:59
+Completed Parallel DNS resolution of 8 hosts. at 23:59, 5.59s elapsed
+Initiating SYN Stealth Scan at 23:59
+Scanning 8 hosts [1000 ports/host]
+Discovered open port 587/tcp on 10.10.10.71
+Discovered open port 445/tcp on 10.10.10.52
+Discovered open port 445/tcp on 10.10.10.71
+Discovered open port 443/tcp on 10.10.10.71
+Discovered open port 443/tcp on 10.10.10.65
+Discovered open port 53/tcp on 10.10.10.52
+Discovered open port 8080/tcp on 10.10.10.52
+Discovered open port 53/tcp on 10.10.10.71
+Discovered open port 8080/tcp on 10.10.10.71
+Discovered open port 25/tcp on 10.10.10.71
+Discovered open port 80/tcp on 10.10.10.47
+Discovered open port 80/tcp on 10.10.10.71
+Discovered open port 80/tcp on 10.10.10.62
+Discovered open port 135/tcp on 10.10.10.52
+Discovered open port 135/tcp on 10.10.10.71
+Discovered open port 22/tcp on 10.10.10.25
+Discovered open port 22/tcp on 10.10.10.62
+Discovered open port 21/tcp on 10.10.10.47
+Discovered open port 22/tcp on 10.10.10.47
+Discovered open port 22/tcp on 10.10.10.65
+Discovered open port 139/tcp on 10.10.10.52
+Discovered open port 3306/tcp on 10.10.10.71
+Discovered open port 88/tcp on 10.10.10.62
+Discovered open port 88/tcp on 10.10.10.71
+Discovered open port 88/tcp on 10.10.10.52
+Discovered open port 1433/tcp on 10.10.10.52
+Discovered open port 49155/tcp on 10.10.10.52
+Discovered open port 49152/tcp on 10.10.10.52
+Discovered open port 49158/tcp on 10.10.10.52
+Discovered open port 49165/tcp on 10.10.10.52
+Discovered open port 6001/tcp on 10.10.10.71
+Discovered open port 6003/tcp on 10.10.10.71
+Discovered open port 6006/tcp on 10.10.10.71
+Discovered open port 593/tcp on 10.10.10.71
+Discovered open port 593/tcp on 10.10.10.52
+Discovered open port 49153/tcp on 10.10.10.52
+Discovered open port 3269/tcp on 10.10.10.71
+Discovered open port 3269/tcp on 10.10.10.52
+Discovered open port 808/tcp on 10.10.10.71
+Discovered open port 6005/tcp on 10.10.10.71
+Discovered open port 9999/tcp on 10.10.10.62
+Discovered open port 3268/tcp on 10.10.10.71
+Discovered open port 3268/tcp on 10.10.10.52
+Discovered open port 80/tcp on 10.10.10.66
+Discovered open port 49154/tcp on 10.10.10.52
+Discovered open port 8000/tcp on 10.10.10.25
+Discovered open port 4/tcp on 10.10.10.62
+Discovered open port 389/tcp on 10.10.10.71
+Discovered open port 1022/tcp on 10.10.10.65
+Discovered open port 6002/tcp on 10.10.10.71
+Discovered open port 636/tcp on 10.10.10.71
+Discovered open port 389/tcp on 10.10.10.52
+Discovered open port 636/tcp on 10.10.10.52
+Discovered open port 464/tcp on 10.10.10.71
+Discovered open port 6007/tcp on 10.10.10.71
+Discovered open port 49157/tcp on 10.10.10.52
+Discovered open port 464/tcp on 10.10.10.52
+Discovered open port 6004/tcp on 10.10.10.71
+Completed SYN Stealth Scan against 10.10.10.47 in 1.83s (7 hosts left)
+Completed SYN Stealth Scan against 10.10.10.25 in 1.84s (6 hosts left)
+Completed SYN Stealth Scan against 10.10.10.71 in 1.84s (5 hosts left)
+Completed SYN Stealth Scan against 10.10.10.65 in 1.84s (4 hosts left)
+Completed SYN Stealth Scan against 10.10.10.52 in 1.85s (3 hosts left)
+Completed SYN Stealth Scan against 10.10.10.62 in 1.85s (2 hosts left)
+Discovered open port 2222/tcp on 10.10.10.66
+Completed SYN Stealth Scan against 10.10.10.66 in 4.83s (1 host left)
+Discovered open port 22/tcp on 10.10.10.21
+Discovered open port 3128/tcp on 10.10.10.21
+Completed SYN Stealth Scan at 23:59, 25.00s elapsed (8000 total ports)
+Initiating UDP Scan at 23:59
+Scanning 8 hosts [1000 ports/host]
+Increasing send delay for 10.10.10.52 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.62 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.52 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 10.10.10.52 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.62 from 50 to 100 due to max_successful_tryno increase to 6
+Warning: 10.10.10.62 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.21 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.65 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.65 from 50 to 100 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.10.25 from 0 to 50 due to 11 out of 18 dropped probes since last increase.
+Warning: 10.10.10.65 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.47 from 0 to 50 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.47 from 50 to 100 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.10.71 from 0 to 50 due to 11 out of 17 dropped probes since last increase.
+Warning: 10.10.10.47 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.25 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.71 from 50 to 100 due to max_successful_tryno increase to 5
+Increasing send delay for 10.10.10.25 from 100 to 200 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.10.71 from 100 to 200 due to max_successful_tryno increase to 6
+Warning: 10.10.10.71 giving up on port because retransmission cap hit (6).
+Warning: 10.10.10.25 giving up on port because retransmission cap hit (6).
+Increasing send delay for 10.10.10.21 from 50 to 100 due to 11 out of 17 dropped probes since last increase.
+Increasing send delay for 10.10.10.65 from 100 to 200 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.10.10.21 from 100 to 200 due to max_successful_tryno increase to 6
+Increasing send delay for 10.10.10.62 from 100 to 200 due to 11 out of 20 dropped probes since last increase.
+Increasing send delay for 10.10.10.47 from 100 to 200 due to 11 out of 17 dropped probes since last increase.
+UDP Scan Timing: About 12.11% done; ETC: 00:03 (0:03:45 remaining)
+Increasing send delay for 10.10.10.52 from 100 to 200 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 10.10.10.71 from 200 to 400 due to 11 out of 15 dropped probes since last increase.
+Increasing send delay for 10.10.10.25 from 200 to 400 due to 11 out of 20 dropped probes since last increase.
+Increasing send delay for 10.10.10.65 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Warning: 10.10.10.21 giving up on port because retransmission cap hit (6).
+Completed UDP Scan against 10.10.10.66 in 39.87s (7 hosts left)
+Increasing send delay for 10.10.10.62 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.47 from 200 to 400 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.21 from 200 to 400 due to 11 out of 14 dropped probes since last increase.
+Increasing send delay for 10.10.10.52 from 200 to 400 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.10.10.71 from 400 to 800 due to 11 out of 12 dropped probes since last increase.
+Increasing send delay for 10.10.10.25 from 400 to 800 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.10.10.65 from 400 to 800 due to 11 out of 13 dropped probes since last increase.
+Increasing send delay for 10.10.10.62 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.47 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.52 from 400 to 800 due to 11 out of 11 dropped probes since last increase.
+Increasing send delay for 10.10.10.21 from 400 to 800 due to 11 out of 16 dropped probes since last increase.
+UDP Scan Timing: About 21.35% done; ETC: 00:04 (0:04:07 remaining)
+Discovered open port 49968/udp on 10.10.10.52
+Increasing send delay for 10.10.10.52 from 800 to 1000 due to 11 out of 22 dropped probes since last increase.
+Increasing send delay for 10.10.10.71 from 800 to 1000 due to 13 out of 32 dropped probes since last increase.
+Discovered open port 53037/udp on 10.10.10.71
+UDP Scan Timing: About 23.98% done; ETC: 00:06 (0:05:08 remaining)
+UDP Scan Timing: About 26.52% done; ETC: 00:07 (0:05:52 remaining)
+UDP Scan Timing: About 29.19% done; ETC: 00:08 (0:06:21 remaining)
+Discovered open port 51456/udp on 10.10.10.52
+UDP Scan Timing: About 32.40% done; ETC: 00:09 (0:06:49 remaining)
+Discovered open port 53/udp on 10.10.10.71
+Discovered open port 51690/udp on 10.10.10.52
+Discovered open port 50612/udp on 10.10.10.52
+Discovered open port 53589/udp on 10.10.10.71
+Discovered open port 51554/udp on 10.10.10.52
+Discovered open port 123/udp on 10.10.10.52
+Discovered open port 53838/udp on 10.10.10.71
+Discovered open port 123/udp on 10.10.10.71
+UDP Scan Timing: About 54.53% done; ETC: 00:13 (0:06:19 remaining)
+Discovered open port 54094/udp on 10.10.10.71
+Discovered open port 51972/udp on 10.10.10.52
+UDP Scan Timing: About 61.21% done; ETC: 00:14 (0:05:37 remaining)
+Discovered open port 54114/udp on 10.10.10.71
+UDP Scan Timing: About 67.21% done; ETC: 00:14 (0:04:53 remaining)
+Discovered open port 51255/udp on 10.10.10.52
+UDP Scan Timing: About 73.05% done; ETC: 00:14 (0:04:07 remaining)
+Discovered open port 54925/udp on 10.10.10.71
+Discovered open port 50919/udp on 10.10.10.52
+UDP Scan Timing: About 78.51% done; ETC: 00:15 (0:03:21 remaining)
+Discovered open port 51905/udp on 10.10.10.52
+UDP Scan Timing: About 83.76% done; ETC: 00:15 (0:02:34 remaining)
+Discovered open port 389/udp on 10.10.10.52
+UDP Scan Timing: About 88.91% done; ETC: 00:15 (0:01:46 remaining)
+Discovered open port 389/udp on 10.10.10.71
+Discovered open port 50708/udp on 10.10.10.52
+UDP Scan Timing: About 94.05% done; ETC: 00:15 (0:00:58 remaining)
+Completed UDP Scan against 10.10.10.47 in 968.33s (6 hosts left)
+Completed UDP Scan against 10.10.10.65 in 978.34s (5 hosts left)
+Completed UDP Scan against 10.10.10.62 in 979.53s (4 hosts left)
+Completed UDP Scan against 10.10.10.25 in 981.90s (3 hosts left)
+Completed UDP Scan against 10.10.10.21 in 992.85s (2 hosts left)
+Discovered open port 53571/udp on 10.10.10.71
+Discovered open port 52144/udp on 10.10.10.52
+Discovered open port 55043/udp on 10.10.10.71
+Completed UDP Scan against 10.10.10.52 in 1083.73s (1 host left)
+Completed UDP Scan at 00:18, 1126.51s elapsed (8000 total ports)
+Initiating Service scan at 00:18
+Scanning 1217 services on 8 hosts
+Discovered open port 54281/udp on 10.10.10.71
+Discovered open|filtered port 54281/udp on rabbit.htb (10.10.10.71) is actually open
+Discovered open port 88/udp on 10.10.10.71
+Discovered open|filtered port 88/udp on rabbit.htb (10.10.10.71) is actually open
+Discovered open port 54711/udp on 10.10.10.71
+Discovered open|filtered port 54711/udp on rabbit.htb (10.10.10.71) is actually open
+Discovered open port 54321/udp on 10.10.10.71
+Discovered open|filtered port 54321/udp on rabbit.htb (10.10.10.71) is actually open
+Discovered open port 54807/udp on 10.10.10.71
+Discovered open|filtered port 54807/udp on rabbit.htb (10.10.10.71) is actually open
+Service scan Timing: About 6.74% done; ETC: 00:32 (0:13:37 remaining)
+Service scan Timing: About 7.72% done; ETC: 00:37 (0:17:55 remaining)
+Service scan Timing: About 8.63% done; ETC: 00:41 (0:21:11 remaining)
+Service scan Timing: About 9.20% done; ETC: 00:46 (0:25:49 remaining)
+Service scan Timing: About 10.19% done; ETC: 00:48 (0:27:28 remaining)
+Service scan Timing: About 11.09% done; ETC: 00:51 (0:29:07 remaining)
+Service scan Timing: About 11.67% done; ETC: 00:54 (0:32:03 remaining)
+Service scan Timing: About 14.13% done; ETC: 00:59 (0:35:39 remaining)
+Service scan Timing: About 18.00% done; ETC: 01:04 (0:37:59 remaining)
+Service scan Timing: About 36.07% done; ETC: 01:13 (0:35:23 remaining)
+Service scan Timing: About 43.47% done; ETC: 01:15 (0:32:18 remaining)
+Service scan Timing: About 50.04% done; ETC: 01:17 (0:29:25 remaining)
+Service scan Timing: About 55.79% done; ETC: 01:17 (0:26:07 remaining)
+Service scan Timing: About 61.79% done; ETC: 01:18 (0:22:58 remaining)
+Service scan Timing: About 67.21% done; ETC: 01:18 (0:19:50 remaining)
+Service scan Timing: About 72.47% done; ETC: 01:19 (0:16:47 remaining)
+Service scan Timing: About 77.98% done; ETC: 01:19 (0:13:26 remaining)
+Service scan Timing: About 83.07% done; ETC: 01:19 (0:10:23 remaining)
+Service scan Timing: About 88.82% done; ETC: 01:19 (0:06:53 remaining)
+Discovered open port 53/udp on 10.10.10.52
+Discovered open|filtered port 53/udp on 10.10.10.52 is actually open
+Discovered open port 88/udp on 10.10.10.52
+Discovered open|filtered port 88/udp on 10.10.10.52 is actually open
+Discovered open port 50099/udp on 10.10.10.52
+Discovered open|filtered port 50099/udp on 10.10.10.52 is actually open
+Discovered open port 50164/udp on 10.10.10.52
+Discovered open|filtered port 50164/udp on 10.10.10.52 is actually open
+Discovered open port 50497/udp on 10.10.10.52
+Discovered open|filtered port 50497/udp on 10.10.10.52 is actually open
+Discovered open port 51586/udp on 10.10.10.52
+Discovered open|filtered port 51586/udp on 10.10.10.52 is actually open
+Discovered open port 51717/udp on 10.10.10.52
+Discovered open|filtered port 51717/udp on 10.10.10.52 is actually open
+Service scan Timing: About 94.08% done; ETC: 01:19 (0:03:36 remaining)
+Completed Service scan at 01:18, 3633.30s elapsed (1217 services on 8 hosts)
+Initiating OS detection (try #1) against 8 hosts
+Retrying OS detection (try #2) against 8 hosts
+Retrying OS detection (try #3) against 6 hosts
+Retrying OS detection (try #4) against 6 hosts
+Retrying OS detection (try #5) against 6 hosts
+Initiating Traceroute at 01:19
+Completed Traceroute at 01:19, 2.06s elapsed
+Initiating Parallel DNS resolution of 9 hosts. at 01:19
+Completed Parallel DNS resolution of 9 hosts. at 01:19, 5.60s elapsed
+NSE: Script scanning 8 hosts.
+Initiating NSE at 01:19
+Completed NSE at 01:22, 187.15s elapsed
+Initiating NSE at 01:22
+Completed NSE at 01:23, 60.65s elapsed
+Nmap scan report for rabbit.htb (10.10.10.71)
+Host is up (0.025s latency).
+Not shown: 1948 closed ports
+PORT      STATE         SERVICE           VERSION
+25/tcp    open          smtp              Microsoft Exchange smtpd
+| smtp-commands: Rabbit.htb.local Hello [10.10.14.23], SIZE, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, X-ANONYMOUSTLS, AUTH NTLM, X-EXPS GSSAPI NTLM, 8BITMIME, BINARYMIME, CHUNKING, XEXCH50, XRDST, XSHADOW, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT 
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Issuer: commonName=Rabbit
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2017-10-24T17:56:42
+| Not valid after:  2022-10-24T17:56:42
+| MD5:   8ec5 baee 0dd5 2ffa 102a 26b0 b23e 53c7
+|_SHA-1: 9583 dc5b 45ea d4e4 f835 0c9d bf25 5a76 8572 8098
+|_ssl-date: 2018-04-26T04:19:29+00:00; +4h59m47s from scanner time.
+53/tcp    open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+80/tcp    open          http              Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: 403 - Forbidden: Access is denied.
+88/tcp    open          kerberos-sec      Microsoft Windows Kerberos (server time: 2018-04-26 03:18:16Z)
+135/tcp   open          msrpc             Microsoft Windows RPC
+389/tcp   open          ldap              Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+443/tcp   open          ssl/http          Microsoft IIS httpd 7.5
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: IIS7
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Issuer: commonName=Rabbit
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2017-10-24T17:56:42
+| Not valid after:  2022-10-24T17:56:42
+| MD5:   8ec5 baee 0dd5 2ffa 102a 26b0 b23e 53c7
+|_SHA-1: 9583 dc5b 45ea d4e4 f835 0c9d bf25 5a76 8572 8098
+|_ssl-date: 2018-04-26T04:19:18+00:00; +4h59m48s from scanner time.
+| sslv2: 
+|   SSLv2 supported
+|   ciphers: 
+|     SSL2_RC4_128_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+445/tcp   open          microsoft-ds?
+464/tcp   open          kpasswd5?
+587/tcp   open          smtp              Microsoft Exchange smtpd
+| smtp-commands: Rabbit.htb.local Hello [10.10.14.23], SIZE 10485760, PIPELINING, DSN, ENHANCEDSTATUSCODES, STARTTLS, AUTH GSSAPI NTLM, 8BITMIME, BINARYMIME, CHUNKING, 
+|_ This server supports the following commands: HELO EHLO STARTTLS RCPT DATA RSET MAIL QUIT HELP AUTH BDAT 
+| smtp-ntlm-info: 
+|   Target_Name: HTB
+|   NetBIOS_Domain_Name: HTB
+|   NetBIOS_Computer_Name: RABBIT
+|   DNS_Domain_Name: htb.local
+|   DNS_Computer_Name: Rabbit.htb.local
+|   DNS_Tree_Name: htb.local
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=Rabbit
+| Subject Alternative Name: DNS:Rabbit, DNS:Rabbit.htb.local
+| Issuer: commonName=Rabbit
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2017-10-24T17:56:42
+| Not valid after:  2022-10-24T17:56:42
+| MD5:   8ec5 baee 0dd5 2ffa 102a 26b0 b23e 53c7
+|_SHA-1: 9583 dc5b 45ea d4e4 f835 0c9d bf25 5a76 8572 8098
+|_ssl-date: 2018-04-26T04:19:30+00:00; +4h59m47s from scanner time.
+593/tcp   open          ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp   open          ldapssl?
+808/tcp   open          ccproxy-http?
+3268/tcp  open          ldap              Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open          globalcatLDAPssl?
+3306/tcp  open          mysql             MySQL 5.7.19
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.19
+|   Thread ID: 27
+|   Capabilities flags: 63487
+|   Some Capabilities: Support41Auth, IgnoreSigpipes, SupportsTransactions, Speaks41ProtocolOld, FoundRows, DontAllowDatabaseTableColumn, IgnoreSpaceBeforeParenthesis, InteractiveClient, LongPassword, SupportsCompression, ConnectWithDatabase, ODBCClient, LongColumnFlag, SupportsLoadDataLocal, Speaks41ProtocolNew, SupportsMultipleResults, SupportsMultipleStatments, SupportsAuthPlugins
+|   Status: Autocommit
+|   Salt: \x15\x01\x1DZ~H\x1ATK \x1AsY\x03+*bm(\x01
+|_  Auth Plugin Name: 79
+6001/tcp  open          ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6002/tcp  open          ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6003/tcp  open          ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6004/tcp  open          ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6005/tcp  open          msrpc             Microsoft Windows RPC
+6006/tcp  open          msrpc             Microsoft Windows RPC
+6007/tcp  open          msrpc             Microsoft Windows RPC
+8080/tcp  open          http              Apache httpd 2.4.27 ((Win64) PHP/5.6.31)
+|_http-favicon: Unknown favicon MD5: 79E32EEA338FA735AD22D36104C4337A
+| http-methods: 
+|   Supported Methods: GET POST OPTIONS HEAD TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.27 (Win64) PHP/5.6.31
+|_http-title: Example
+53/udp    open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+88/udp    open          kerberos-sec      Microsoft Windows Kerberos (server time: 2018-04-26 03:18:26Z)
+123/udp   open          ntp               NTP v3
+| ntp-info: 
+|_  receive time stamp: 2018-04-26T04:19:14
+389/udp   open          ldap              Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+464/udp   open|filtered kpasswd5
+500/udp   open|filtered isakmp
+1057/udp  open|filtered startron
+4500/udp  open|filtered nat-t-ike
+5355/udp  open|filtered llmnr
+11487/udp open|filtered unknown
+17490/udp open|filtered unknown
+20120/udp open|filtered unknown
+20279/udp open|filtered unknown
+36669/udp open|filtered unknown
+49168/udp open|filtered unknown
+49195/udp open|filtered unknown
+53037/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+53571/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+53589/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+53838/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54094/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54114/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54281/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54321/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54711/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54807/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+54925/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+55043/udp open          domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15D39)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=25%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=
+OS:x86_64-pc-linux-gnu)SEQ(SP=100%GCD=1%ISR=10E%TI=I%CI=I%II=I%SS=S%TS=7)OP
+OS:S(O1=M54DNW8ST11%O2=M54DNW8ST11%O3=M54DNW8NNT11%O4=M54DNW8ST11%O5=M54DNW
+OS:8ST11%O6=M54DST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)EC
+OS:N(R=Y%DF=Y%T=80%W=2000%O=M54DNW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%
+OS:A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%
+OS:DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=
+OS:80%CD=Z)
+
+Uptime guess: 2.891 days (since Mon Apr 23 04:00:49 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=256 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Hosts: Rabbit.htb.local, RABBIT; OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_server_2008:r2:sp1
+
+Host script results:
+|_clock-skew: mean: 4h59m48s, deviation: 3s, median: 4h59m46s
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+1   23.52 ms 10.10.14.1
+2   23.46 ms rabbit.htb (10.10.10.71)
+
+Nmap scan report for nightmare.htb (10.10.10.66)
+Host is up (0.025s latency).
+Not shown: 1000 open|filtered ports, 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Apache httpd 2.4.18 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.18 (Ubuntu)
+|_http-title: NOTES
+2222/tcp open  ssh     (protocol 2.0)
+| fingerprint-strings: 
+|   NULL: 
+|_    SSH-2.0-OpenSSH 32bit (not so recent ver)
+| ssh-hostkey: 
+|   1024 e2:71:84:5d:ed:07:89:98:68:8b:6e:78:da:84:4c:b5 (DSA)
+|   2048 bd:1c:11:9a:5b:15:d2:f6:28:76:c3:40:7c:80:6d:ec (RSA)
+|   256 bf:e8:25:bf:ca:92:55:bc:ca:a4:96:c7:43:d0:51:73 (ECDSA)
+|_  256 6f:14:30:b1:39:47:54:b7:5a:01:be:96:2c:a7:96:58 (ED25519)
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port2222-TCP:V=7.70%I=7%D=4/26%Time=5AE0FEB3%P=x86_64-pc-linux-gnu%r(NU
+SF:LL,2B,"SSH-2\.0-OpenSSH\x2032bit\x20\(not\x20so\x20recent\x20ver\)\r\n"
+SF:);
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (92%), Linux 3.13 (92%), Linux 3.2 - 4.9 (92%), Linux 4.4 (92%), Linux 4.8 (92%), Linux 4.9 (91%), Linux 3.12 (90%), Linux 3.13 or 4.2 (90%), Linux 3.16 (90%), Linux 3.16 - 4.6 (90%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 0.153 days (since Wed Apr 25 21:43:02 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 80/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   25.32 ms nightmare.htb (10.10.10.66)
+
+Nmap scan report for fulcrum.htb (10.10.10.62)
+Host is up (0.025s latency).
+Not shown: 1979 closed ports
+PORT      STATE         SERVICE         VERSION
+4/tcp     open          http            nginx 1.10.3 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: nginx/1.10.3 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+22/tcp    open          ssh             OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 a8:28:6e:d0:af:ab:46:de:c5:09:3d:76:ad:5a:44:e0 (RSA)
+|   256 c1:5c:1d:ea:99:ec:e0:a1:dc:04:c5:5a:ad:50:36:f6 (ECDSA)
+|_  256 a5:2f:44:e6:e3:10:cf:f7:db:15:d1:3f:49:21:3a:7b (ED25519)
+80/tcp    open          http            nginx 1.10.3 (Ubuntu)
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: nginx/1.10.3 (Ubuntu)
+|_http-title: Input string was not in a correct format.
+88/tcp    open          http            nginx 1.10.3 (Ubuntu)
+|_http-favicon: Unknown favicon MD5: 531B63A51234BB06C9D77F219EB25553
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+| http-robots.txt: 1 disallowed entry 
+|_/
+|_http-server-header: nginx/1.10.3 (Ubuntu)
+|_http-title: phpMyAdmin
+9999/tcp  open          http            nginx 1.10.3 (Ubuntu)
+|_http-favicon: Unknown favicon MD5: 082559A7867CF27ACAB7E9867A8B320F
+| http-methods: 
+|_  Supported Methods: GET HEAD POST
+|_http-server-header: nginx/1.10.3 (Ubuntu)
+|_http-title: Login
+513/udp   open|filtered who
+1040/udp  open|filtered netarx
+1057/udp  open|filtered startron
+3283/udp  open|filtered netassistant
+8900/udp  open|filtered jmb-cds1
+16430/udp open|filtered unknown
+17359/udp open|filtered unknown
+17494/udp open|filtered unknown
+19222/udp open|filtered unknown
+21476/udp open|filtered unknown
+21948/udp open|filtered unknown
+32770/udp open|filtered sometimes-rpc4
+32779/udp open|filtered sometimes-rpc22
+34079/udp open|filtered unknown
+40711/udp open|filtered unknown
+49158/udp open|filtered unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=4%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=x
+OS:86_64-pc-linux-gnu)SEQ(SP=102%GCD=1%ISR=10E%TI=Z%CI=I%II=I%TS=8)OPS(O1=M
+OS:54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7%
+OS:O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y%
+OS:DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=
+OS:0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%DF
+OS:=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=
+OS:%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%
+OS:IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 2.890 days (since Mon Apr 23 04:02:34 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=258 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.79 ms fulcrum.htb (10.10.10.62)
+
+Nmap scan report for ariekei.htb (10.10.10.65)
+Host is up (0.025s latency).
+Not shown: 1980 closed ports
+PORT      STATE         SERVICE         VERSION
+22/tcp    open          ssh             OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 a7:5b:ae:65:93:ce:fb:dd:f9:6a:7f:de:50:67:f6:ec (RSA)
+|   256 64:2c:a6:5e:96:ca:fb:10:05:82:36:ba:f0:c9:92:ef (ECDSA)
+|_  256 51:9f:87:64:be:99:35:2a:80:a6:a2:25:eb:e0:95:9f (ED25519)
+443/tcp   open          ssl/http        nginx 1.10.2
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: nginx/1.10.2
+|_http-title: Site Maintenance
+| ssl-cert: Subject: stateOrProvinceName=Texas/countryName=US
+| Subject Alternative Name: DNS:calvin.ariekei.htb, DNS:beehive.ariekei.htb
+| Issuer: stateOrProvinceName=Texas/countryName=US
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2017-09-24T01:37:05
+| Not valid after:  2045-02-08T01:37:05
+| MD5:   d73e ffe4 5f97 52ca 64dc 7770 abd0 2b7f
+|_SHA-1: 1138 148e dfbd 6ad8 367b 08c8 1725 7408 eedb 4a7b
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|_  http/1.1
+1022/tcp  open          ssh             OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.8 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 98:33:f6:b6:4c:18:f5:80:66:85:47:0c:f6:b7:90:7e (DSA)
+|   2048 78:40:0d:1c:79:a1:45:d4:28:75:35:36:ed:42:4f:2d (RSA)
+|   256 45:a6:71:96:df:62:b5:54:66:6b:91:7b:74:6a:db:b7 (ECDSA)
+|_  256 ad:8d:4d:69:8e:7a:fd:d8:cd:6e:c1:4f:6f:81:b4:1f (ED25519)
+520/udp   open|filtered route
+814/udp   open|filtered unknown
+1042/udp  open|filtered afrog
+1057/udp  open|filtered startron
+3283/udp  open|filtered netassistant
+17494/udp open|filtered unknown
+18996/udp open|filtered unknown
+19222/udp open|filtered unknown
+20872/udp open|filtered unknown
+21354/udp open|filtered unknown
+21476/udp open|filtered unknown
+25003/udp open|filtered icl-twobase4
+29256/udp open|filtered unknown
+31625/udp open|filtered unknown
+32770/udp open|filtered sometimes-rpc4
+32779/udp open|filtered sometimes-rpc22
+49178/udp open|filtered unknown
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=22%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=
+OS:x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=10B%TI=Z%CI=I%II=I%TS=8)OPS(O1=
+OS:M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7
+OS:%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y
+OS:%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%D
+OS:F=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O
+OS:=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40
+OS:%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 2.884 days (since Mon Apr 23 04:10:59 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.64 ms ariekei.htb (10.10.10.65)
+
+Nmap scan report for 10.10.10.52
+Host is up (0.025s latency).
+Not shown: 1931 closed ports, 29 open|filtered ports
+PORT      STATE SERVICE      VERSION
+53/tcp    open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+88/tcp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2018-04-25 22:18:19Z)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+389/tcp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds (workgroup: HTB)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1433/tcp  open  ms-sql-s     Microsoft SQL Server 2014 12.00.2000.00; RTM
+| ms-sql-ntlm-info: 
+|   Target_Name: HTB
+|   NetBIOS_Domain_Name: HTB
+|   NetBIOS_Computer_Name: MANTIS
+|   DNS_Domain_Name: htb.local
+|   DNS_Computer_Name: mantis.htb.local
+|   DNS_Tree_Name: htb.local
+|_  Product_Version: 6.1.7601
+| ssl-cert: Subject: commonName=SSL_Self_Signed_Fallback
+| Issuer: commonName=SSL_Self_Signed_Fallback
+| Public Key type: rsa
+| Public Key bits: 1024
+| Signature Algorithm: sha1WithRSAEncryption
+| Not valid before: 2018-04-23T02:05:32
+| Not valid after:  2048-04-23T02:05:32
+| MD5:   a805 3127 1ec4 6b19 ecc1 f043 3077 44a3
+|_SHA-1: c615 a28e 3d93 3821 c59a abf3 f8f5 727c e441 7d7c
+|_ssl-date: 2018-04-25T23:19:38+00:00; -13s from scanner time.
+3268/tcp  open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+8080/tcp  open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-server-header: Microsoft-IIS/7.5
+|_http-title: Tossed Salad - Blog
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  ncacn_http   Microsoft Windows RPC over HTTP 1.0
+49158/tcp open  msrpc        Microsoft Windows RPC
+49165/tcp open  msrpc        Microsoft Windows RPC
+53/udp    open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+88/udp    open  kerberos-sec Microsoft Windows Kerberos (server time: 2018-04-25 23:14:10Z)
+123/udp   open  ntp          NTP v3
+| ntp-info: 
+|_  receive time stamp: 2018-04-25T23:19:50
+389/udp   open  ldap         Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+49968/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50099/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50164/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50497/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50612/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50708/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+50919/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51255/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51456/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51554/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51586/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51690/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51717/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51905/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+51972/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+52144/udp open  domain       Microsoft DNS 6.1.7601 (1DB15CD4) (Windows Server 2008 R2 SP1)
+| dns-nsid: 
+|_  bind.version: Microsoft DNS 6.1.7601 (1DB15CD4)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=53%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=
+OS:x86_64-pc-linux-gnu)SEQ(SP=101%GCD=1%ISR=103%TI=I%CI=I%II=I%SS=S%TS=7)OP
+OS:S(O1=M54DNW8ST11%O2=M54DNW8ST11%O3=M54DNW8NNT11%O4=M54DNW8ST11%O5=M54DNW
+OS:8ST11%O6=M54DST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)EC
+OS:N(R=Y%DF=Y%T=80%W=2000%O=M54DNW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=
+OS:AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=Y%T=80
+OS:%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=
+OS:)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=80%W=0%S=A%
+OS:A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%
+OS:DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=
+OS:80%CD=Z)
+
+Uptime guess: 2.888 days (since Mon Apr 23 04:04:53 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=257 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: MANTIS; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 39m50s, deviation: 1h38m06s, median: -13s
+| ms-sql-info: 
+|   10.10.10.52:1433: 
+|     Version: 
+|       name: Microsoft SQL Server 2014 RTM
+|       number: 12.00.2000.00
+|       Product: Microsoft SQL Server 2014
+|       Service pack level: RTM
+|       Post-SP patches applied: false
+|_    TCP port: 1433
+| smb-os-discovery: 
+|   OS: Windows Server 2008 R2 Standard 7601 Service Pack 1 (Windows Server 2008 R2 Standard 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_server_2008::sp1
+|   Computer name: mantis
+|   NetBIOS computer name: MANTIS\x00
+|   Domain name: htb.local
+|   Forest name: htb.local
+|   FQDN: mantis.htb.local
+|_  System time: 2018-04-25T19:19:48-04:00
+| smb-security-mode: 
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2018-04-26 01:19:49
+|_  start_date: 2018-04-23 04:05:04
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.85 ms 10.10.10.52
+
+Nmap scan report for 10.10.10.47
+Host is up (0.025s latency).
+Not shown: 1970 closed ports, 27 open|filtered ports
+PORT   STATE SERVICE VERSION
+21/tcp open  ftp     vsftpd 3.0.3
+22/tcp open  ssh     OpenSSH 7.5 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 2d:a7:95:95:5d:dd:75:ca:bc:de:36:2c:33:f6:47:ef (RSA)
+|   256 b5:1f:0b:9f:83:b3:6c:3b:6b:8b:71:f4:ee:56:a8:83 (ECDSA)
+|_  256 1f:13:b7:36:8d:cd:46:6c:29:6d:be:e4:ab:9c:24:5b (ED25519)
+80/tcp open  http    Apache httpd 2.4.27 ((Unix))
+| http-methods: 
+|   Supported Methods: HEAD GET POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.4.27 (Unix)
+|_http-title: Home
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=21%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=
+OS:x86_64-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=108%TI=Z%CI=I%II=I%TS=8)OPS(O1=
+OS:M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7
+OS:%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y
+OS:%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%D
+OS:F=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O
+OS:=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40
+OS:%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 86.312 days (since Mon Jan 29 16:53:37 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Unix
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.81 ms 10.10.10.47
+
+Nmap scan report for holiday.htb (10.10.10.25)
+Host is up (0.025s latency).
+Not shown: 1985 closed ports
+PORT      STATE         SERVICE         VERSION
+22/tcp    open          ssh             OpenSSH 7.2p2 Ubuntu 4ubuntu2.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c3:aa:3d:bd:0e:01:46:c9:6b:46:73:f3:d1:ba:ce:f2 (RSA)
+|   256 b5:67:f5:eb:8d:11:e9:0f:dd:f4:52:25:9f:b1:2f:23 (ECDSA)
+|_  256 79:e9:78:96:c5:a8:f4:02:83:90:58:3f:e5:8d:fa:98 (ED25519)
+8000/tcp  open          http            Node.js Express framework
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Error
+68/udp    open|filtered dhcpc
+363/udp   open|filtered rsvp_tunnel
+434/udp   open|filtered mobileip-agent
+814/udp   open|filtered unknown
+1813/udp  open|filtered radacct
+11487/udp open|filtered unknown
+17359/udp open|filtered unknown
+18996/udp open|filtered unknown
+20872/udp open|filtered unknown
+21354/udp open|filtered unknown
+29256/udp open|filtered unknown
+31625/udp open|filtered unknown
+32775/udp open|filtered sometimes-rpc14
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=4/26%OT=22%CT=1%CU=2%PV=Y%DS=2%DC=T%G=Y%TM=5AE10DEF%P=
+OS:x86_64-pc-linux-gnu)SEQ(SP=106%GCD=1%ISR=10E%TI=Z%CI=I%II=I%TS=8)OPS(O1=
+OS:M54DST11NW7%O2=M54DST11NW7%O3=M54DNNT11NW7%O4=M54DST11NW7%O5=M54DST11NW7
+OS:%O6=M54DST11)WIN(W1=7120%W2=7120%W3=7120%W4=7120%W5=7120%W6=7120)ECN(R=Y
+OS:%DF=Y%T=40%W=7210%O=M54DNNSNW7%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD
+OS:=0%Q=)T2(R=N)T3(R=N)T4(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)T5(R=Y%D
+OS:F=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O
+OS:=%RD=0%Q=)T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40
+OS:%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 2.885 days (since Mon Apr 23 04:08:46 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=262 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 3389/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.96 ms holiday.htb (10.10.10.25)
+
+Nmap scan report for 10.10.10.21
+Host is up (0.051s latency).
+Not shown: 998 filtered ports, 994 closed ports
+PORT      STATE         SERVICE        VERSION
+22/tcp    open          ssh            OpenSSH 7.3p1 Ubuntu 1ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 88:24:e3:57:10:9f:1b:17:3d:7a:f3:26:3d:b6:33:4e (RSA)
+|   256 76:b6:f6:08:00:bd:68:ce:97:cb:08:e7:77:69:3d:8a (ECDSA)
+|_  256 dc:91:e4:8d:d0:16:ce:cf:3d:91:82:09:23:a7:dc:86 (ED25519)
+3128/tcp  open          http-proxy     Squid http proxy 3.5.12
+|_http-server-header: squid/3.5.12
+|_http-title: ERROR: The requested URL could not be retrieved
+69/udp    open|filtered tftp
+5355/udp  open|filtered llmnr
+17359/udp open|filtered unknown
+20120/udp open|filtered unknown
+29256/udp open|filtered unknown
+32770/udp open|filtered sometimes-rpc4
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 3.10 - 4.11 (94%), Linux 3.16 (94%), Linux 3.16 - 4.6 (94%), Linux 3.18 (94%), Linux 3.2 - 4.9 (94%), Linux 4.2 (94%), Linux 4.4 (94%), Linux 3.12 (93%), Linux 3.13 (93%), Linux 3.13 or 4.2 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 2.732 days (since Mon Apr 23 07:48:39 2018)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=252 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE (using port 22/tcp)
+HOP RTT      ADDRESS
+-   Hop 1 is the same as for 10.10.10.71
+2   23.68 ms 10.10.10.21
+
+NSE: Script Post-scanning.
+Initiating NSE at 01:23
+Completed NSE at 01:23, 0.00s elapsed
+Initiating NSE at 01:23
+Completed NSE at 01:23, 0.00s elapsed
+Read data files from: /usr/bin/../share/nmap
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 8 IP addresses (8 hosts up) scanned in 5064.67 seconds
+           Raw packets sent: 22771 (859.312KB) | Rcvd: 13917 (696.107KB)
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.71"></address><hostnames><hostname type="PTR" name="rabbit.htb"></hostname></hostnames><ports><extraports count="1948" state="closed"></extraports><port protocol="tcp" portid="25"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Exchange smtpd" method="probed" conf="10" name="smtp"></service></port><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="7.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2018-04-26 03:18:16Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft IIS httpd" version="7.5" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="microsoft-ds"></service></port><port protocol="tcp" portid="464"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="kpasswd5"></service></port><port protocol="tcp" portid="587"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Exchange smtpd" method="probed" conf="10" name="smtp"></service></port><port protocol="tcp" portid="593"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="636"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ldapssl"></service></port><port protocol="tcp" portid="808"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="ccproxy-http"></service></port><port protocol="tcp" portid="3268"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="3269"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="globalcatLDAPssl"></service></port><port protocol="tcp" portid="3306"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="MySQL" version="5.7.19" method="probed" conf="10" name="mysql"></service></port><port protocol="tcp" portid="6001"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="6002"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="6003"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="6004"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="6005"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="6006"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="6007"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Apache httpd" name="http" extrainfo="(Win64) PHP/5.6.31" version="2.4.27" conf="10" method="probed"></service></port><port protocol="udp" portid="53"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="88"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2018-04-26 03:18:26Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="udp" portid="123"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="NTP" version="v3" method="probed" conf="10" name="ntp"></service></port><port protocol="udp" portid="389"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="udp" portid="464"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="kpasswd5"></service></port><port protocol="udp" portid="500"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="isakmp"></service></port><port protocol="udp" portid="1057"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="startron"></service></port><port protocol="udp" portid="4500"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="nat-t-ike"></service></port><port protocol="udp" portid="5355"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="llmnr"></service></port><port protocol="udp" portid="11487"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="17490"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="20120"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="20279"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="36669"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="49168"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="49195"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="53037"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="53571"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="53589"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="53838"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54094"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54114"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54281"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54321"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54711"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54807"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="54925"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port><port protocol="udp" portid="55043"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15D39)" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="25" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="73937" name="Microsoft Windows Home Server 2011 (Windows Server 2008 R2)" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74720" name="Microsoft Windows Server 2008 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74922" name="Microsoft Windows Server 2008 SP2" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="76118" name="Microsoft Windows 7" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="76695" name="Microsoft Windows 7 SP0 - SP1 or Windows Server 2008" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="76720" name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="77298" name="Microsoft Windows 7 Ultimate" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="77660" name="Microsoft Windows 8.1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="77769" name="Microsoft Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="79474" name="Microsoft Windows Vista or Windows 7 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 04:00:49 2018" seconds="249758"></uptime><tcpsequence index="256" values="5775DB56,868673D7,3C529015,DD39FB81,370C41BA,AA276B21" difficulty="Good luck!"></tcpsequence><ipidsequence values="5D80,5D81,5D82,5D83,5D84,5D85" class="Incremental"></ipidsequence><tcptssequence values="17CB54B,17CB555,17CB560,17CB569,17CB573,17CB57E" class="100HZ"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.46" host="rabbit.htb" ipaddr="10.10.10.71" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.66"></address><hostnames><hostname type="PTR" name="nightmare.htb"></hostname></hostnames><ports><extraports count="1000" state="open|filtered"></extraports><extraports count="998" state="filtered"></extraports><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Ubuntu)" version="2.4.18" conf="10" method="probed"></service></port><port protocol="tcp" portid="2222"><state reason="syn-ack" state="open" reason_ttl="63"></state><service extrainfo="protocol 2.0" method="probed" conf="10" name="ssh"></service></port></ports><os><portused state="open" portid="80" proto="tcp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="63662" name="Linux 3.13" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="92"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="67111" name="Linux 4.4" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="92"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="92"></osclass></osmatch><osmatch line="67713" name="Linux 4.9" accuracy="91"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="91"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="90"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="90"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="90"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="90"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="90"></osclass></osmatch></os><uptime lastboot="Wed Apr 25 21:43:02 2018" seconds="13225"></uptime><tcpsequence index="260" values="FA5AD267,5E41203B,728D096F,9A39E616,8F979F5D,9A394CAB" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="316C79,316C92,316CAB,316CC4,316CDD,316CF6" class="other"></tcptssequence><trace port="80" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="25.32" host="nightmare.htb" ipaddr="10.10.10.66" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.62"></address><hostnames><hostname type="PTR" name="fulcrum.htb"></hostname></hostnames><ports><extraports count="1979" state="closed"></extraports><port protocol="tcp" portid="4"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="tcp" portid="9999"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="nginx" name="http" extrainfo="Ubuntu" version="1.10.3" conf="10" method="probed"></service></port><port protocol="udp" portid="513"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="who"></service></port><port protocol="udp" portid="1040"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="netarx"></service></port><port protocol="udp" portid="1057"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="startron"></service></port><port protocol="udp" portid="3283"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="netassistant"></service></port><port protocol="udp" portid="8900"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="jmb-cds1"></service></port><port protocol="udp" portid="16430"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="17359"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="17494"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="19222"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="21476"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="21948"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="32770"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc4"></service></port><port protocol="udp" portid="32779"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc22"></service></port><port protocol="udp" portid="34079"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="40711"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="49158"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port></ports><os><portused state="open" portid="4" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 04:02:34 2018" seconds="249653"></uptime><tcpsequence index="258" values="A9EB7487,40C7D731,1365C415,92F69FBA,EC716880,A607EF46" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="3B75DE4,3B75DFD,3B75E16,3B75E2F,3B75E48,3B75E61" class="other"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.79" host="fulcrum.htb" ipaddr="10.10.10.62" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.65"></address><hostnames><hostname type="PTR" name="ariekei.htb"></hostname></hostnames><ports><extraports count="1980" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="443"><state reason="syn-ack" state="open" reason_ttl="62"></state><service product="nginx" version="1.10.2" method="probed" conf="10" name="http"></service></port><port protocol="tcp" portid="1022"><state reason="syn-ack" state="open" reason_ttl="62"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="6.6.1p1 Ubuntu 2ubuntu2.8" conf="10" method="probed"></service></port><port protocol="udp" portid="520"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="route"></service></port><port protocol="udp" portid="814"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="1042"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="afrog"></service></port><port protocol="udp" portid="1057"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="startron"></service></port><port protocol="udp" portid="3283"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="netassistant"></service></port><port protocol="udp" portid="17494"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="18996"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="19222"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="20872"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="21354"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="21476"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="25003"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="icl-twobase4"></service></port><port protocol="udp" portid="29256"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="31625"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="32770"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc4"></service></port><port protocol="udp" portid="32779"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc22"></service></port><port protocol="udp" portid="49178"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 04:10:59 2018" seconds="249148"></uptime><tcpsequence index="259" values="19B48D5D,4DE2AD33,313B22E0,A4E66132,DE877059,9D91764C" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="3B570EB,3B57104,3B5711D,3B57136,3B5714F,3B57168" class="other"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.64" host="ariekei.htb" ipaddr="10.10.10.65" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.52"></address><hostnames></hostnames><ports><extraports count="1931" state="closed"></extraports><extraports count="29" state="open|filtered"></extraports><port protocol="tcp" portid="53"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="tcp" portid="88"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2018-04-25 22:18:19Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="tcp" portid="135"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="139"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows netbios-ssn" method="probed" conf="10" name="netbios-ssn"></service></port><port protocol="tcp" portid="389"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="445"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Windows Server 2008 R2 Standard 7601 Service Pack 1 microsoft-ds" extrainfo="workgroup: HTB" method="probed" conf="10" name="microsoft-ds"></service></port><port protocol="tcp" portid="464"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="table" conf="3" name="kpasswd5"></service></port><port protocol="tcp" portid="593"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="636"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="1433"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft SQL Server 2014" version="12.00.2000.00; RTM" method="probed" conf="10" name="ms-sql-s"></service></port><port protocol="tcp" portid="3268"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="tcp" portid="3269"><state reason="syn-ack" state="open" reason_ttl="127"></state><service method="probed" conf="8" name="tcpwrapped"></service></port><port protocol="tcp" portid="8080"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft HTTPAPI httpd" name="http" extrainfo="SSDP/UPnP" version="2.0" conf="10" method="probed"></service></port><port protocol="tcp" portid="49152"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49153"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49154"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49155"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49157"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC over HTTP" version="1.0" method="probed" conf="10" name="ncacn_http"></service></port><port protocol="tcp" portid="49158"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="tcp" portid="49165"><state reason="syn-ack" state="open" reason_ttl="127"></state><service product="Microsoft Windows RPC" method="probed" conf="10" name="msrpc"></service></port><port protocol="udp" portid="53"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="88"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft Windows Kerberos" extrainfo="server time: 2018-04-25 23:14:10Z" method="probed" conf="10" name="kerberos-sec"></service></port><port protocol="udp" portid="123"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="NTP" version="v3" method="probed" conf="10" name="ntp"></service></port><port protocol="udp" portid="389"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft Windows Active Directory LDAP" extrainfo="Domain: htb.local, Site: Default-First-Site-Name" method="probed" conf="10" name="ldap"></service></port><port protocol="udp" portid="49968"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50099"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50164"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50497"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50612"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50708"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="50919"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51255"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51456"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51554"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51586"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51690"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51717"><state reason="udp-response" state="open" reason_ttl="0"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51905"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="51972"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port><port protocol="udp" portid="52144"><state reason="udp-response" state="open" reason_ttl="127"></state><service product="Microsoft DNS" name="domain" extrainfo="Windows Server 2008 R2 SP1" version="6.1.7601 (1DB15CD4)" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="53" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="74590" name="Microsoft Windows Server 2008 R2 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="74720" name="Microsoft Windows Server 2008 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="76316" name="Microsoft Windows 7" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="76695" name="Microsoft Windows 7 SP0 - SP1 or Windows Server 2008" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="2008" accuracy="96"></osclass></osmatch><osmatch line="76720" name="Microsoft Windows 7 SP0 - SP1, Windows Server 2008 SP1, Windows Server 2008 R2, Windows 8, or Windows 8.1 Update 1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="8.1" accuracy="96"></osclass></osmatch><osmatch line="77007" name="Microsoft Windows 7 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="79474" name="Microsoft Windows Vista or Windows 7 SP1" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="79709" name="Microsoft Windows Vista SP1 - SP2, Windows Server 2008 SP2, or Windows 7" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="7" accuracy="96"></osclass></osmatch><osmatch line="79750" name="Microsoft Windows Vista SP2" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="96"></osclass></osmatch><osmatch line="79392" name="Microsoft Windows Vista Business" accuracy="96"><osclass type="general purpose" osfamily="Windows" vendor="Microsoft" osgen="Vista" accuracy="96"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 04:04:53 2018" seconds="249514"></uptime><tcpsequence index="257" values="3B81424,E0877152,224E7D6C,E5B9ADA6,DAB4C177,DAEF4068" difficulty="Good luck!"></tcpsequence><ipidsequence values="62D4,62D5,62D6,62D7,62D8,62D9" class="Incremental"></ipidsequence><tcptssequence values="17C55F7,17C5601,17C560B,17C5615,17C561F,17C5629" class="100HZ"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.85" host="" ipaddr="10.10.10.52" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.47"></address><hostnames></hostnames><ports><extraports count="1970" state="closed"></extraports><extraports count="27" state="open|filtered"></extraports><port protocol="tcp" portid="21"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="vsftpd" version="3.0.3" method="probed" conf="10" name="ftp"></service></port><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="protocol 2.0" version="7.5" conf="10" method="probed"></service></port><port protocol="tcp" portid="80"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Apache httpd" name="http" extrainfo="(Unix)" version="2.4.27" conf="10" method="probed"></service></port></ports><os><portused state="open" portid="21" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67713" name="Linux 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Mon Jan 29 16:53:37 2018" seconds="7457390"></uptime><tcpsequence index="259" values="74374BCC,386CD341,4FEA6D03,41703950,8929962,A6B02A09" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="85580B5A,85580B78,85580B96,85580BB4,85580BD2,85580BF0" class="other"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.81" host="" ipaddr="10.10.10.47" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.25"></address><hostnames><hostname type="PTR" name="holiday.htb"></hostname></hostnames><ports><extraports count="1985" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.2p2 Ubuntu 4ubuntu2.2" conf="10" method="probed"></service></port><port protocol="tcp" portid="8000"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Node.js Express framework" method="probed" conf="10" name="http"></service></port><port protocol="udp" portid="68"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="dhcpc"></service></port><port protocol="udp" portid="363"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="rsvp_tunnel"></service></port><port protocol="udp" portid="434"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="mobileip-agent"></service></port><port protocol="udp" portid="814"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="1813"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="radacct"></service></port><port protocol="udp" portid="11487"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="17359"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="18996"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="20872"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="21354"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="29256"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="31625"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="32775"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc14"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="1" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="63436" name="Linux 3.12" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="66079" name="Linux 3.8 - 3.11" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67510" name="Linux 4.4" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="67659" name="Linux 4.8" accuracy="95"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="95"></osclass></osmatch><osmatch line="8344" name="ASUS RT-N56U WAP (Linux 3.4)" accuracy="95"><osclass type="WAP" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="95"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 04:08:46 2018" seconds="249281"></uptime><tcpsequence index="262" values="21443DF5,3FB23CDE,9BFDBCFC,2557A684,A8CFF3F9,DA743435" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="3B5F334,3B5F34D,3B5F366,3B5F37F,3B5F398,3B5F3B1" class="other"></tcptssequence><trace port="3389" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.96" host="holiday.htb" ipaddr="10.10.10.25" ttl="2"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="10.10.10.21"></address><hostnames></hostnames><ports><extraports count="998" state="filtered"></extraports><extraports count="994" state="closed"></extraports><port protocol="tcp" portid="22"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="OpenSSH" name="ssh" extrainfo="Ubuntu Linux; protocol 2.0" version="7.3p1 Ubuntu 1ubuntu0.1" conf="10" method="probed"></service></port><port protocol="tcp" portid="3128"><state reason="syn-ack" state="open" reason_ttl="63"></state><service product="Squid http proxy" version="3.5.12" method="probed" conf="10" name="http-proxy"></service></port><port protocol="udp" portid="69"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="tftp"></service></port><port protocol="udp" portid="5355"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="llmnr"></service></port><port protocol="udp" portid="17359"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="20120"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="29256"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="unknown"></service></port><port protocol="udp" portid="32770"><state reason="no-response" state="open|filtered" reason_ttl="0"></state><service method="table" conf="3" name="sometimes-rpc4"></service></port></ports><os><portused state="open" portid="22" proto="tcp"></portused><portused state="closed" portid="2" proto="udp"></portused><osmatch line="63230" name="Linux 3.10 - 4.11" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="94"></osclass></osmatch><osmatch line="63944" name="Linux 3.16" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="94"></osclass></osmatch><osmatch line="64164" name="Linux 3.16 - 4.6" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="94"></osclass></osmatch><osmatch line="64238" name="Linux 3.18" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="94"></osclass></osmatch><osmatch line="65105" name="Linux 3.2 - 4.9" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="94"></osclass></osmatch><osmatch line="67057" name="Linux 4.2" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="94"></osclass></osmatch><osmatch line="67239" name="Linux 4.4" accuracy="94"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="94"></osclass></osmatch><osmatch line="63436" name="Linux 3.12" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63553" name="Linux 3.13" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="3.X" accuracy="93"></osclass></osmatch><osmatch line="63776" name="Linux 3.13 or 4.2" accuracy="93"><osclass type="general purpose" osfamily="Linux" vendor="Linux" osgen="4.X" accuracy="93"></osclass></osmatch></os><uptime lastboot="Mon Apr 23 07:48:39 2018" seconds="236088"></uptime><tcpsequence index="252" values="D5063651,3684D763,D814465E,1DBA280E,DBCB0162,45D50E19" difficulty="Good luck!"></tcpsequence><ipidsequence values="0,0,0,0,0,0" class="All zeros"></ipidsequence><tcptssequence values="3B5F54D,3B5F54D,3B5F54D,3B5F565,3B5F5D1,3B5F5D1" class="other"></tcptssequence><trace port="22" proto="tcp"><hop rtt="23.52" host="" ipaddr="10.10.14.1" ttl="1"></hop><hop rtt="23.68" host="" ipaddr="10.10.10.21" ttl="2"></hop></trace></host><runstats><finished timestr="Thu Apr 26 01:23:27 2018" time="1524698607"></finished><hosts down="0" total="8" up="8"></hosts></runstats></nmaprun>
